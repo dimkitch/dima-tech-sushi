@@ -1,4 +1,4 @@
-# abc-market NUXT2
+# abc-market
 
 ## SSR-mode
 
