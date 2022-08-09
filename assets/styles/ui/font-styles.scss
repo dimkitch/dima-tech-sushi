@@ -1,0 +1,75 @@
+// xl,lg,md,nr,sm,xsm
+
+// Классы заголовков
+.title {
+  // .title-xl
+  &-xl {
+    font-size: 45px;
+    line-height: 143%;
+  }
+
+  // .title-lg
+  &-lg {
+    font-size: 40px;
+    line-height: 143%;
+  }
+
+  // .title-md
+  &-md {
+    font-size: 24px;
+    line-height: 98%;
+  }
+}
+
+// Классы текста
+.text {
+  // .text-xl
+  &-xl {
+    font-size: 17px;
+    line-height: 117%;
+  }
+  // .text-lg
+  &-lg {
+    font-size: 12px;
+    line-height: 117%;
+  } // .text-md
+  &-md {
+    font-size: 16px;
+    line-height: 119%;
+  }
+  // .text-nr
+  &-nr {
+    font-size: 14px;
+    line-height: 121%;
+  }
+}
+
+// Классы для цвета текста
+.color {
+  // .color-secondary-basalt-deep
+  &-secondary-basalt-deep {
+    color: $color-secondary-basalt-deep;
+  }
+  // .color-primary
+  &-primary {
+    color: $color-primary;
+  }
+  // .color-secondary-basalt
+  &-secondary-basalt {
+    color: $color-secondary-basalt;
+  }
+  // .color-light
+  &-light {
+    color: $color-light;
+  }
+}
+// Хелперы
+.fw-heavy {
+  font-weight: 900;
+}
+.fw-bold {
+  font-weight: 700;
+}
+.fw-medium {
+  font-weight: 500;
+}

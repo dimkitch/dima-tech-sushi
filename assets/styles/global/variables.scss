@@ -1,0 +1,52 @@
+/* Vars:
+  ========================================================================== */
+
+// Font
+$font-main: "TTNorms";
+$font-size-main-text: 17px;
+$font-size-main-text-tablet: 16px;
+$font-size-main-text-mob: 14px;
+$font-lh-main-text: 117%;
+$font-lh-main-text-tablet: 143%;
+$font-weight-main-text: 400;
+
+// colors
+$color-secondary: #f2f6fa;
+$color-secondary-light-deep: #dfdfe0;
+$color-secondary-semple-deep: #343538;
+$color-secondary-deep: #757575;
+$color-secondary-light: #ccd5df;
+$color-secondary-simple: #f0f1f2;
+$color-secondary-basalt: #8c8c8c;
+$color-secondary-deep-dark: #728095;
+$color-secondary-deep-light: #6e6e6e;
+$color-secondary-basalt-deep: #9a9ea6;
+$color-secondary-basalt-light: #acacac;
+// ---------------------------------------------------------------
+$color-primary: #4475f2;
+$color-simple-primary: #6991f5;
+// ---------------------------------------------------------------
+$color-accent: #ee379d;
+// ---------------------------------------------------------------
+$color-dark-simple: #000000;
+$color-dark-light: #27282b;
+$color-dark-deep: #1b1717;
+$color-dark-basalt: #2e363e;
+// ---------------------------------------------------------------
+$color-success: #55c18f;
+// ---------------------------------------------------------------
+$color-light: #ffffff;
+// other
+$transition-mod: all 0.3s ease;
+
+// breakpoints
+
+$breakpoint-desktop-md: 1280px;
+$breakpoint-tablet: 1024px;
+$breakpoint-tablet-md: 767px;
+$breakpoint-mob: 575px;
+
+$container-max-width-desktop-md: 990px;
+$container-max-width-tablet: 750px;
+$container-max-width-tablet-md: 550px;
+$container-max-width-mob: 300px;

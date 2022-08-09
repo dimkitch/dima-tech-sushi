@@ -1,0 +1,11 @@
+// font
+// Примнимает 4 значения
+// 1е - название по которому ты будешь обращаться к шрифту
+// 2е - фактическое название файла в папке #src/fonts
+// 3e - начертание шрифта, font-weight
+// 4e - стиль шритфа, font-style
+
+@include font("TTNorms", "TTNorms-Regular", "400", "normal");
+@include font("TTNorms", "TTNorms-Heavy", "500", "normal");
+@include font("TTNorms", "TTNorms-Bold", "700", "normal");
+@include font("TTNorms", "TTNorms-Heavy", "900", "normal");

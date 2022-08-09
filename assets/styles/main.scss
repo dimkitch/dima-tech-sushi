@@ -1,0 +1,23 @@
+@import "global/reset.scss";
+@import "global/variables.scss";
+@import "ui/font-styles.scss";
+
+body {
+  // TODO: дефолтные стили
+  font-family: $font-main;
+  font-size: $font-size-main-text;
+  color: $color-dark-simple;
+  font-weight: $font-weight-main-text;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+.container {
+  max-width: 1460px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
