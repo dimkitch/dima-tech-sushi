@@ -1,11 +1,13 @@
 <template>
   <header class="header">
     <div class="container">
-      <div class="header-wrapper">
-        <HeaderLogoIcon class="header-logo" />
-        <div class="header-callback">
-          <div class="header-callback-asks">
-            <CallCallingIcon class="header-callback-ico" />
+      <div class="header__top">
+        <nuxt-link :to="{ name: 'index' }">
+          <HeaderLogoIcon class="header__logo"
+        /></nuxt-link>
+        <div class="header__callback">
+          <div class="header__callback-asks">
+            <TelIcon class="header__callback-ico" />
             <div>
               <p class="text-lg color-secondary-basalt-deep">
                 Появились вопросы?
@@ -13,8 +15,8 @@
               <p class="text-md color-primary fw-bold">310-437-2766</p>
             </div>
           </div>
-          <div class="header-callback-buying">
-            <CallCallingIcon class="header-callback-ico" />
+          <div class="header__callback-buying">
+            <TelIcon class="header__callback-ico" />
             <div>
               <p class="text-lg color-secondary-basalt-deep">
                 Для оптовых покупателей
@@ -25,25 +27,16 @@
         </div>
       </div>
       <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link text-nr color-secondary-basalt-deep" href="#"
-              >Каталог</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-nr color-secondary-basalt-deep" href="#"
-              >О компании</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-nr color-secondary-basalt-deep" href="#"
-              >Блог</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-nr color-secondary-basalt-deep" href="#"
-              >Цикл производства</a
+        <ul class="nav__list">
+          <li
+            v-for="(item, index) in navMenu"
+            :key="`nav__item-${index}`"
+            class="nav__item"
+          >
+            <nuxt-link
+              class="nav__link text-nr color-secondary-basalt-deep"
+              :to="{ name: item.link }"
+              >{{ item.name }}</nuxt-link
             >
           </li>
         </ul>
@@ -52,48 +45,60 @@
   </header>
 </template>
 <script>
-import SearchInput from "@/components/common/controls/SearchInput.vue";
-
-import CallCallingIcon from "@/components/common/icons/CallCallingIcon.vue";
+import CustomInput from "@/components/common/controls/CustomInput.vue";
+import TelIcon from "@/components/common/icons/TelIcon.vue";
 import HeaderLogoIcon from "@/components/common/icons/HeaderLogoIcon.vue";
 export default {
-  components: { CallCallingIcon, HeaderLogoIcon, SearchInput },
+  components: { TelIcon, HeaderLogoIcon, CustomInput },
   data() {
-    return {};
+    return {
+      navMenu: [
+        { name: "Каталог", link: "catalog" },
+        { name: "О компании", link: "about" },
+        { name: "Блог", link: "" },
+        { name: "Товар", link: "product" },
+        { name: "Цикл производства", link: "manufacturing-cycle" },
+      ],
+    };
   },
 };
 </script>
 <style lang="scss">
 .header {
-  // .header-wrapper
-  &-wrapper {
+  // .header__top
+  &__top {
     display: flex;
     justify-content: space-between;
     height: 72px;
     align-items: center;
     border-bottom: 1px solid $color-secondary-light-deep;
   }
-  //  .header-logo
-  &-logo {
+
+  //  .header__logo
+  &__logo {
     width: 149px;
     height: 64px;
   }
-  // .header-callback
-  &-callback {
+
+  // .header__callback
+  &__callback {
     display: flex;
-    // .callback-ico
+
+    // .header__callback-ico
     &-ico {
       margin-right: 17px;
       width: 30px;
       height: 30px;
       color: $color-light;
     }
-    // .callback-ask
+
+    // .header__callback-asks
     &-asks {
       display: flex;
       margin-right: 40px;
     }
-    // .callback-buying
+
+    // .header__callback-buying
     &-buying {
       display: flex;
     }
@@ -103,18 +108,21 @@ export default {
     display: flex;
     height: 72px;
     align-items: center;
-    // .nav-list
-    &-list {
+
+    // .nav__list
+    &__list {
       display: flex;
     }
-    // .nav-item
-    &-item {
+
+    // .nav__item
+    &__item {
       &:not(:last-child) {
         margin-right: 40px;
       }
     }
-    // .nav-link
-    &-link {
+
+    // .nav__link
+    &__link {
       transition: $transition-mod;
       &:hover {
         color: $color-primary;

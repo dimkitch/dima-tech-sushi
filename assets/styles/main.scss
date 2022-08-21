@@ -1,5 +1,6 @@
 @import "global/reset.scss";
 @import "global/variables.scss";
+@import "ui/fonts.scss";
 @import "ui/font-styles.scss";
 
 body {
@@ -17,7 +18,7 @@ h6 {
   font-weight: 700;
 }
 .container {
-  max-width: 1460px;
+  max-width: 1380px;
   padding: 0 20px;
   margin: 0 auto;
 }

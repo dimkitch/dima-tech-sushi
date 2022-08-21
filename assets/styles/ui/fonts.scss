@@ -1,11 +1,31 @@
-// font
-// Примнимает 4 значения
-// 1е - название по которому ты будешь обращаться к шрифту
-// 2е - фактическое название файла в папке #src/fonts
-// 3e - начертание шрифта, font-weight
-// 4e - стиль шритфа, font-style
+@font-face {
+  font-family: "TTNorms";
+  font-weight: 400;
+  font-style: normal;
+  src: url("@/assets/fonts/TTNorms-Regular.ttf") format("TrueType");
+  font-display: swap;
+}
 
-@include font("TTNorms", "TTNorms-Regular", "400", "normal");
-@include font("TTNorms", "TTNorms-Heavy", "500", "normal");
-@include font("TTNorms", "TTNorms-Bold", "700", "normal");
-@include font("TTNorms", "TTNorms-Heavy", "900", "normal");
+@font-face {
+  font-family: "TTNorms";
+  font-weight: 500;
+  font-style: normal;
+  src: url("@/assets/fonts/TTNorms-Medium.ttf") format("TrueType");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  font-weight: 700;
+  font-style: normal;
+  src: url("@/assets/fonts/TTNorms-Bold.ttf") format("TrueType");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  font-weight: 900;
+  font-style: normal;
+  src: url("@/assets/fonts/TTNorms-Heavy.ttf") format("TrueType");
+  font-display: swap;
+}
