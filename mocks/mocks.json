@@ -1,0 +1,6 @@
+[
+  {
+    "id": "base",
+    "routesVariants": ["add-headers:enabled", "main-get-info:success"]
+  }
+]

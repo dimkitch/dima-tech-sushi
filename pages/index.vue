@@ -11,7 +11,11 @@
       > -->
     <!-- </div> -->
     <ToyCatalog class="home-page__toy-catalog" />
-    <AboutCompany class="home-page__about-company" />
+    <AboutCompany
+      v-if="pageData.aboutCompany"
+      class="home-page__about-company"
+      :aboutCompanyData="pageData.aboutCompany"
+    />
     <OurProduct class="home-page__our-product" />
     <OurBenefits class="home-page__our-benefits" />
     <Discount />
@@ -29,6 +33,7 @@ import OurBenefits from "@/components/shared/blocks/OurBenefits/index.vue";
 import Discount from "@/components/pages/home/Discount.vue";
 import CustomerFeedback from "@/components/shared/blocks/CustomerFeedback";
 import Blog from "@/components/shared/blocks/Blog";
+import { mapActions, mapGetters } from "vuex";
 export default {
   name: "IndexPage",
   components: {
@@ -40,6 +45,20 @@ export default {
     Discount,
     CustomerFeedback,
     Blog,
+  },
+
+  data() {
+    return {
+      pageData: {},
+    };
+  },
+
+  methods: {
+    ...mapActions({ loadPage: "api/home/LOAD_PAGE" }),
+  },
+
+  async mounted() {
+    this.pageData = await this.loadPage();
   },
 };
 </script>
