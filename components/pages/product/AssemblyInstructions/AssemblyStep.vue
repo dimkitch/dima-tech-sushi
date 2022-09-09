@@ -5,7 +5,7 @@
         <span class="assembly-step__shape"></span>{{ assemblyData.title }}
       </h3>
       <p class="assembly-step__comment">
-        {{ assemblyData.info }}
+        {{ assemblyData.description }}
       </p>
     </div>
   </div>

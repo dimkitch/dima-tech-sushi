@@ -6,6 +6,10 @@
   &-sm {
     font-size: 64px;
     line-height: 71px;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 30px;
+      line-height: 35px;
+    }
   }
   // .title-mdxl
   &-mdxl {
@@ -17,6 +21,10 @@
     font-size: 45px;
     line-height: 53px;
     letter-spacing: 0.07em;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 30px;
+      line-height: 35px;
+    }
   }
   // .title-lg
   &-lg {
@@ -27,6 +35,10 @@
   &-xxl {
     font-size: 36px;
     line-height: 42px;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 24px;
+      line-height: 28px;
+    }
   }
   // .title-msxl
   &-msxl {

@@ -17,22 +17,9 @@ export default {
   props: {
     tagData: {
       type: Array,
-      required: true,
     },
   },
-  data() {
-    return {
-      //   popularTagList: [
-      //     { title: "Игрушки оптом и в розницу", id: 131415151515151 },
-      //     { title: "Оптовый магазин игрушек ", id: 1314151513232515151 },
-      //     { title: "Игрушки", id: 131415424151 },
-      //     { title: "Недорогие игрушки", id: 1151515151 },
-      //     { title: "Игрушки", id: 13141515151 },
-      //     { title: "Магазин игрушек", id: 131151515151 },
-      //     { title: "от 6 лет", id: 13151515151 },
-      //   ],
-    };
-  },
+
   methods: {
     removeTag(index) {
       console.log(`Tag id - ${index} removed`);

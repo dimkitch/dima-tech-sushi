@@ -27,17 +27,24 @@ export default {
 </script>
 <style lang="scss">
 .discount {
+  background-image: url(@/assets/img/discount.png);
+  object-fit: cover;
+  object-position: center;
   // .discount__content
   &__content {
-    background-image: url(@/assets/img/discount.png);
-    object-fit: cover;
-    object-position: center;
     padding: 140px 84px;
     display: flex;
+    @media (max-width: $breakpoint-tablet) {
+      padding: 70px 42px;
+      flex-direction: column;
+    }
   }
   // .discount__info
   &__info {
     margin-right: 209px;
+    @media (max-width: $breakpoint-tablet) {
+      margin-right: 109px;
+    }
   }
 }
 </style>

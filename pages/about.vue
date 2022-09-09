@@ -1,11 +1,40 @@
 <template>
   <main class="about-page">
-    <AboutCompany class="about-page__about-company" />
-    <Purpose class="about-page__purpose" />
-    <OurStandarts class="about-page__our-standarts" />
-    <OurBenefits class="about-page__our-benefits" />
-    <QualityCertificates class="about-page__quality-certificates" />
-    <Blog class="about-page__blog" />
+    <AboutCompany
+      class="about-page__about-company"
+      :aboutCompanyData="pageData.aboutCompany"
+      v-if="pageData.aboutCompany"
+    />
+
+    <Purpose
+      class="about-page__purpose"
+      :purposeData="pageData.purpose"
+      v-if="pageData.purpose"
+    />
+
+    <OurStandarts
+      class="about-page__our-standarts"
+      :standartData="pageData.ourStandarts"
+      v-if="pageData.ourStandarts"
+    />
+
+    <OurBenefits
+      class="about-page__our-benefits"
+      :ourBenefitsData="pageData.ourBenefits"
+      v-if="pageData.ourBenefits"
+    />
+
+    <QualityCertificates
+      class="about-page__quality-certificates"
+      :qualitiCertificateData="pageData.qualitiCertificate"
+      v-if="pageData.qualitiCertificate"
+    />
+
+    <Blog
+      class="about-page__blog"
+      :blogData="pageData.blog"
+      v-if="pageData.blog"
+    />
   </main>
 </template>
 <script>
@@ -16,6 +45,7 @@ import QualitiStandart from "@/components/shared/blocks/OurStandarts/QualitiStan
 import OurBenefits from "@/components/shared/blocks/OurBenefits";
 import QualityCertificates from "@/components/shared/blocks/QualityCertificates";
 import Blog from "@/components/shared/blocks/Blog";
+import { mapActions, mapGetters } from "vuex";
 export default {
   components: {
     AboutCompany,
@@ -28,29 +58,15 @@ export default {
   },
   data() {
     return {
-      qualitiStandart: [
-        {
-          id: 12,
-          title: "",
-          subtitle: "",
-        },
-        {
-          id: 12,
-          title: "",
-          subtitle: "",
-        },
-        {
-          id: 12,
-          title: "",
-          subtitle: "",
-        },
-        {
-          id: 12,
-          title: "",
-          subtitle: "",
-        },
-      ],
+      pageData: {},
     };
+  },
+  methods: {
+    ...mapActions({ loadPage: "api/about/LOAD_PAGE" }),
+  },
+
+  async mounted() {
+    this.pageData = await this.loadPage();
   },
 };
 </script>

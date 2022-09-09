@@ -1,6 +1,6 @@
 <template>
   <div class="about-product">
-    <div class="container">
+    <div class="about-product__wrapper">
       <div class="about-product__inner">
         <div class="about-product__item about-product__item-description">
           <h4 class="about-product__title title-md">Описание товара</h4>
@@ -36,12 +36,27 @@
           </p>
         </div>
       </div>
+      <div class="about-product__rich-content rich-content">
+        <img class="rich-content__image" src="@/assets/img/rich.png" alt="" />
+      </div>
     </div>
   </div>
 </template>
 <style lang="scss">
 .about-product {
-  // .about-product__inner
+  // .about-product__wrapper
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 2.6fr 0.4fr;
+    gap: 116px;
+    @media (max-width: $breakpoint-desktop-md) {
+      gap: 58px;
+    }
+    @media (max-width: $breakpoint-tablet-md) {
+      grid-template-columns: 1fr;
+      gap: 35px;
+    }
+  }
   // .about-product__item
   &__item {
     &:not(:last-child) {
@@ -50,22 +65,30 @@
       margin-bottom: 25px;
     }
   }
-  // .about-product__item-description
-  &__item-description {
-    width: 883px;
-  }
-  // .about-product__item-features
-  &__item-features {
-    width: 566px;
-  }
-  // .about-product__title
-  // .about-product__info
 
   // .about-product__list
   &__option {
     flex-direction: column;
     display: flex;
     justify-content: space-between;
+  }
+
+  // .about-product__rich-content
+  &__rich-content {
+    width: 342px;
+    height: 679px;
+    @media (max-width: $breakpoint-tablet-md) {
+    }
+  }
+}
+.rich-content {
+  // .rich-content__image
+  &__image {
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
   }
 }
 </style>

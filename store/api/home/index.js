@@ -1,9 +1,5 @@
 import { API } from "@/store/config.js";
 
-export const state = {
-  pageData: {},
-};
-
 export const actions = {
   async LOAD_PAGE() {
     const result = await fetch(API + "main/getInfo")

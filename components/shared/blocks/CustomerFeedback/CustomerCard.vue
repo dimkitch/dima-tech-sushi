@@ -6,16 +6,16 @@
         {{ customerData.title }}
       </h4>
       <p class="customer-card__subtitle text-md color-secondary-deep-dark">
-        {{ customerData.comment }}
+        {{ customerData.description }}
       </p>
     </div>
     <div class="customer-card__right-part">
-      <img class="customer-card__image" :src="customerData.img" />
+      <img class="customer-card__image" :src="customerData.author.image" />
       <p class="customer-card__name color-dark-basalt text-xsm">
-        {{ customerData.name }}
+        {{ customerData.author.name }}
       </p>
       <p class="customer-card__city text-md color-light-dark">
-        {{ customerData.city }}
+        {{ customerData.author.location }}
       </p>
     </div>
   </div>
@@ -45,8 +45,23 @@ export default {
   padding: 70px 143px;
   background: $color-light;
   width: 1180px;
+  @media (max-width: $breakpoint-tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: none;
+    border: none;
+  }
   //   .customer-card__left-part
   &__left-part {
+    @media (max-width: $breakpoint-tablet) {
+      order: 1;
+    }
+  }
+  //   .customer-card__right-part
+  &__right-part {
+    @media (max-width: $breakpoint-tablet) {
+      order: -1;
+    }
   }
   // .customer-card__title
   &__title {

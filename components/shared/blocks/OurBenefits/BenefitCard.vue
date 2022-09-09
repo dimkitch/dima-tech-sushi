@@ -5,7 +5,7 @@
         {{ benefitData.title }}
       </h3>
       <p class="benefit-card__info text-xsm">
-        {{ benefitData.info }}
+        {{ benefitData.description }}
       </p>
     </div>
   </article>

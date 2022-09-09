@@ -10,17 +10,40 @@
         >ссылка к новостям по id</nuxt-link
       > -->
     <!-- </div> -->
-    <ToyCatalog class="home-page__toy-catalog" />
-    <AboutCompany
-      v-if="pageData.aboutCompany"
-      class="home-page__about-company"
-      :aboutCompanyData="pageData.aboutCompany"
+
+    <ToyCatalog
+      class="home-page__toy-catalog"
+      :sliderList="pageData.sliderList"
+      v-if="pageData.sliderList"
     />
-    <OurProduct class="home-page__our-product" />
-    <OurBenefits class="home-page__our-benefits" />
-    <Discount />
-    <CustomerFeedback class="home-page__customer-feedback" />
-    <Blog class="home-page__blog" />
+
+    <!-- <Slider /> -->
+
+    <OurProduct
+      class="home-page__our-product"
+      :ourProductData="pageData.products"
+      v-if="pageData.products"
+    />
+
+    <OurBenefits
+      class="home-page__our-benefits"
+      :ourBenefitsData="pageData.ourBenefits"
+      v-if="pageData.ourBenefits"
+    />
+
+    <Discount class="home-page__discount" />
+
+    <CustomerFeedback
+      class="home-page__customer-feedback"
+      :customerFeedbackData="pageData.customerFeedback"
+      v-if="pageData.customerFeedback"
+    />
+
+    <Blog
+      class="home-page__blog"
+      :blogData="pageData.blog"
+      v-if="pageData.blog"
+    />
   </main>
 </template>
 
@@ -33,6 +56,7 @@ import OurBenefits from "@/components/shared/blocks/OurBenefits/index.vue";
 import Discount from "@/components/pages/home/Discount.vue";
 import CustomerFeedback from "@/components/shared/blocks/CustomerFeedback";
 import Blog from "@/components/shared/blocks/Blog";
+import Slider from "@/components/pages/home/Slider.vue";
 import { mapActions, mapGetters } from "vuex";
 export default {
   name: "IndexPage",
@@ -45,6 +69,7 @@ export default {
     Discount,
     CustomerFeedback,
     Blog,
+    Slider,
   },
 
   data() {
@@ -64,6 +89,7 @@ export default {
 </script>
 <style lang="scss">
 .home-page {
+  margin-top: 144px;
   // .home-page__toy-catalog
   &__toy-catalog {
     margin-bottom: 84px;

@@ -2,6 +2,7 @@
 @import "global/variables.scss";
 @import "ui/fonts.scss";
 @import "ui/font-styles.scss";
+// @import "swiper/swiper-bundle.css";
 
 body {
   // TODO: дефолтные стили
@@ -21,4 +22,17 @@ h6 {
   max-width: 1380px;
   padding: 0 20px;
   margin: 0 auto;
+  @media (max-width: $breakpoint-desktop-md) {
+    max-width: $container-max-width-desktop-md;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    max-width: $container-max-width-tablet;
+  }
+  @media (max-width: $breakpoint-tablet-md) {
+    max-width: $container-max-width-tablet-md;
+  }
+  @media (max-width: $breakpoint-mob) {
+    max-width: $container-max-width-mob;
+    padding: 0 51px;
+  }
 }

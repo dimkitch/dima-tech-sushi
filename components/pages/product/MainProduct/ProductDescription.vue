@@ -50,10 +50,16 @@ export default {
   // .product-description__title
   &__title {
     margin-bottom: 30px;
+    @media (max-width: $breakpoint-desktop-md) {
+      display: none;
+    }
   }
   //   .product-description__info
   &__info {
     margin-bottom: 35px;
+    @media (max-width: $breakpoint-mob) {
+      display: none;
+    }
   }
   // .product-description__text
   &__text {

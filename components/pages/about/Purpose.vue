@@ -3,48 +3,60 @@
     <div class="container">
       <div class="purpose__content">
         <div class="purpose__info">
-          <h3 class="purpose__title title-xl fw-heavy">Наша миссия</h3>
+          <h3 class="purpose__title title-xl fw-heavy">
+            {{ purposeData.title }}
+          </h3>
           <p class="purpose__text text-xsm color-secondary-deep-light">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet.
-            <br />
-            <br />
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet.
+            {{ purposeData.description }}
           </p>
         </div>
-        <img src="@/assets/img/purpose.png" alt="" />
+        <img class="purpose__image" :src="`${purposeData.image}`" />
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  props: {
+    purposeData: {
+      type: Object,
+    },
+  },
+};
+</script>
 <style lang="scss">
 .purpose {
   margin-bottom: 150px;
   // .purpose__content
   &__content {
     display: flex;
+    flex-wrap: wrap;
   }
   // .purpose__info
   &__info {
-    margin-right: 60px;
+    width: 648px;
+    margin-right: auto;
+    @media (max-width: $breakpoint-desktop-md) {
+      order: 1;
+      width: 100%;
+      margin-right: 0;
+      margin-top: 30px;
+    }
   }
   // .purpose__title
   &__title {
     text-align: center;
     margin-bottom: 50px;
+  }
+  // .purpose__image
+  &__image {
+    object-fit: cover;
+    object-position: center;
+    width: 632px;
+    @media (max-width: $breakpoint-desktop-md) {
+      order: -1;
+      width: 100%;
+    }
   }
 }
 </style>

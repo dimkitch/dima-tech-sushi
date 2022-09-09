@@ -1,17 +1,17 @@
 <template>
   <article class="blog">
     <div class="container">
-      <h2 class="blog__title title-sm fw-heavy tf-up color-dark-deep">БЛОГ</h2>
+      <h2 class="blog__title title-sm fw-heavy tf-up color-dark-deep">
+        {{ blogData.title }}
+      </h2>
       <p class="blog__info text-xsm color-secondary-deep-dark">
-        Massa commodo leo amet in feugiat non, commodo. Augue senectus felis,
-        suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in
-        duis tortor, iaculis mi magna urna nullam.
+        {{ blogData.description }}
       </p>
       <div class="blog__cards">
         <BlogCard
-          :blogData="card"
-          v-for="card in blogList"
+          v-for="card in blogData.blogCard"
           :key="`blog-card-${card.id}`"
+          :blogData="card"
         />
       </div>
     </div>
@@ -23,27 +23,10 @@ export default {
   components: {
     BlogCard,
   },
-  data() {
-    return {
-      blogList: [
-        {
-          title: "Заголовок новости 1",
-          firstParagraph:
-            " Massa commodo leo amet in feugiat non, commodo. Augue senectus felis,suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, induis tortor, iaculis mi magna urna nullam.",
-          secondParagraph:
-            "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis,suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, induis tortor, iaculis mi magna urna nullam.",
-          id: 1425323156,
-        },
-        {
-          title: "Заголовок новости 2",
-          firstParagraph:
-            "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis,suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, induis tortor, iaculis mi magna urna nullam.",
-          secondParagraph:
-            "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis,suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, induis tortor, iaculis mi magna urna nullam.",
-          id: 14255326,
-        },
-      ],
-    };
+  props: {
+    blogData: {
+      type: Object,
+    },
   },
 };
 </script>
@@ -63,6 +46,10 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0 25px;
+    @media (max-width: $breakpoint-tablet) {
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
   }
 }
 </style>

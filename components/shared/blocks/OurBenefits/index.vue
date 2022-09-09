@@ -5,13 +5,13 @@
         <h2
           class="our-benefits__title title-xl color-dark-deep tf-up lsp fw-heavy"
         >
-          Наши преимущества
+          {{ ourBenefitsData.title }}
         </h2>
       </div>
       <div class="our-benefits__body">
         <BenefitCard
           class="our-benefits__item"
-          v-for="(card, index) in benefitList"
+          v-for="(card, index) in ourBenefitsData.ourBenefitsCards"
           :key="index"
           :benefitData="card"
         />
@@ -25,23 +25,10 @@ export default {
   components: {
     BenefitCard,
   },
-  data() {
-    return {
-      benefitList: [
-        {
-          title: "Преимущество1",
-          info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-        },
-        {
-          title: "Преимущество2",
-          info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-        },
-        {
-          title: "Преимущество3",
-          info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-        },
-      ],
-    };
+  props: {
+    ourBenefitsData: {
+      type: Object,
+    },
   },
 };
 </script>
@@ -53,14 +40,18 @@ export default {
   }
   // .our-benefits__body
   &__body {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 29px;
+    @media (max-width: $breakpoint-tablet) {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
   }
   // .our-benefits__item
   &__item {
     background-color: $color-primary;
-    &:not(:last-child) {
-      margin-right: 29px;
-    }
+
     &:nth-child(2n) {
       background-color: $color-accent;
     }

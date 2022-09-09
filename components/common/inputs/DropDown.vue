@@ -21,7 +21,7 @@
         :key="`dropdown-block__item-${index}`"
         @click="onSelectOption(option)"
       >
-        {{ option.name }}
+        {{ option.description }}
       </li>
     </ul>
   </div>
@@ -52,10 +52,10 @@ export default {
   },
   methods: {
     onSelectOption(option) {
-      this.currentOption = option.name;
+      this.currentOption = option.description;
       this.isHidden = true;
 
-      this.$emit("input", option.name);
+      this.$emit("input", option.description);
     },
     onCloseFromWindow(event) {
       if (

@@ -14,9 +14,6 @@ export default {
       required: true,
     },
   },
-  data() {
-    return {};
-  },
 };
 </script>
 <style lang="scss">

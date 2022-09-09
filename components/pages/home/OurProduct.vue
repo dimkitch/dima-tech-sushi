@@ -3,32 +3,27 @@
     <div class="container">
       <div class="our-product__header">
         <h2 class="our-product__title title-xl fw-heavy color-dark-deep tf-up">
-          Наши товары
+          {{ ourProductData.title }}
         </h2>
-        <DropDown
-          :listOptions="listOptions"
-          placeholder="Поиск"
-          v-model="exampleOption"
-        />
-        <CustomButton size="lg" theme="primary"> Найти </CustomButton>
-        <FilterIcon />
+
+        <div class="our-product__action">
+          <DropDown
+            :listOptions="ourProductData.listOptions"
+            placeholder="Поиск"
+            v-model="exampleOption"
+          />
+          <FilterIcon class="our-product__filter" />
+        </div>
       </div>
       <div class="our-product__body">
-        <h3 class="our-product__tag-title">Популярные теги:</h3>
+        <h3 class="our-product__tag-title">{{ ourProductData.subtitle }}</h3>
 
         <div class="our-product__tags">
-          <!-- <PopularTag
-            class="our-product__item"
-            v-for="(tag, index) in popularTagList"
-            :key="`our-product__${tag.id}`"
-            :tagData="tag"
-            :index="index"
-          /> -->
-          <PopularTags :tagData="popularTagList" @remove="removeTag" />
+          <PopularTags :tagData="ourProductData.tags" @remove="removeTag" />
         </div>
         <div class="our-product__cards">
           <ProductCard
-            v-for="card in cardList"
+            v-for="card in ourProductData.cards"
             :key="`our-product__card-${card.id}`"
             :cardData="card"
           />
@@ -59,107 +54,20 @@ export default {
     CustomButton,
     PopularTags,
   },
+  props: {
+    ourProductData: {
+      type: Object,
+    },
+  },
   data() {
     return {
       tagHidden: true,
-      cardList: [
-        {
-          id: "11314231",
-          name: "Наименование игрушки 1",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-        {
-          id: "1131411",
-          name: "Наименование игрушки 2",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-        {
-          id: "1131412",
-          name: "Наименование игрушки 3",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-        {
-          id: "1131413",
-          name: "Наименование игрушки 4",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-        {
-          id: "1131414",
-          name: "Наименование игрушки 5",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-        {
-          id: "1131415",
-          name: "Наименование игрушки 6",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-        {
-          id: "1131416",
-          name: "Наименование игрушки 7",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-        {
-          id: "1131417",
-          name: "Наименование игрушки 8",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-        {
-          id: "1131418",
-          name: "Наименование игрушки 9",
-          info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab.",
-          image:
-            "https://avatars.mds.yandex.net/i?id=c1cda5f38d7a09542627111367c639a8-5235392-images-thumbs&n=13&exp=1",
-        },
-      ],
-      listOptions: [
-        { name: "1Наименование" },
-        { name: "2Наименование" },
-        { name: "3Наименование" },
-        { name: "4Наименование" },
-        { name: "5Наименование" },
-        { name: "6Наименование" },
-        { name: "7Наименование" },
-        { name: "8Наименование" },
-        { name: "9Наименование" },
-        { name: "10Наименование" },
-        { name: "11Наименование" },
-        { name: "12Наименование" },
-        { name: "13Наименование" },
-        { name: "14Наименование" },
-        { name: "15Наименование" },
-        { name: "16Наименование" },
-      ],
       exampleOption: "",
-      popularTagList: [
-        { title: "Игрушки оптом и в розницу", id: 131415151515151 },
-        { title: "Оптовый магазин игрушек ", id: 1314151513232515151 },
-        { title: "Игрушки", id: 131415424151 },
-        { title: "Недорогие игрушки", id: 1151515151 },
-        { title: "Игрушки", id: 13141515151 },
-        { title: "Магазин игрушек", id: 131151515151 },
-        { title: "от 6 лет", id: 13151515151 },
-      ],
     };
   },
   methods: {
     removeTag(index) {
-      this.popularTagList.splice(index, 1);
+      // this.popularTagList.splice(index, 1);
     },
   },
   created() {
@@ -179,26 +87,52 @@ export default {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    @media (max-width: $breakpoint-mob) {
+      flex-direction: column;
+    }
   }
   // .our-product__title
   &__title {
     margin-right: 10px;
   }
+  // .our-product__action
+  &__action {
+    display: flex;
+    align-items: center;
+  }
+  // .our-product__filter
+  &__filter {
+    margin-left: 24px;
+  }
   // .our-product__tag-title
   &__tag-title {
     margin-bottom: 20px;
+    @media (max-width: $breakpoint-mob) {
+      display: none;
+    }
   }
   // .our-product__tags
   &__tags {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
+    @media (max-width: $breakpoint-mob) {
+      display: none;
+      margin-bottom: 30px;
+    }
   }
   // .our-product__cards
   &__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px 30px;
+    @media (max-width: $breakpoint-desktop-md) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: $breakpoint-tablet-md) {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
   }
   // .our-product__item
   &__item {

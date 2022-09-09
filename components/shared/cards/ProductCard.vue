@@ -4,7 +4,11 @@
       <img :src="cardData.image" class="product-card__image" />
     </div>
     <div class="product-card__content color-light">
-      <h3 class="product-card__title title-md bold">{{ cardData.name }}</h3>
+      <nuxt-link :to="{ name: 'product-id', params: { id: cardData.id } }"
+        ><h3 class="product-card__title title-md bold">
+          {{ cardData.title }}
+        </h3></nuxt-link
+      >
       <div class="product-card__rate">
         <StarIcon class="product-card__icon" />
         <StarIcon class="product-card__icon" />
@@ -13,7 +17,7 @@
         <StarIcon class="product-card__icon" />
         <span class="color-light-simple text-md">(67)</span>
       </div>
-      <p class="product-card__comment text-xl">{{ cardData.info }}</p>
+      <p class="product-card__comment text-xl">{{ cardData.description }}</p>
 
       <div class="product-card__controls">
         <CustomButton class="product-card__btn" size="nr" theme="light">
@@ -37,7 +41,6 @@ export default {
   props: {
     cardData: {
       type: Object,
-      required: true,
     },
   },
   data() {
@@ -50,6 +53,9 @@ export default {
   display: flex;
   flex-direction: column;
   max-width: 500px;
+  @media (max-width: $breakpoint-tablet) {
+    margin: 0 auto;
+  }
   // .product-card__header
   &__header {
     display: flex;
@@ -69,6 +75,9 @@ export default {
   &__image {
     border-radius: 15px 15px 0px 0px;
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
   }
   // .card__icon
   &__icon {
