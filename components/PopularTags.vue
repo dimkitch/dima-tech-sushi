@@ -4,10 +4,10 @@
       <div
         class="popular-tags__item"
         v-for="(tag, index) in tagData"
-        :key="`popular-tags__${index}`"
+        :key="`popular-tags__item-${index}`"
       >
         {{ tag.title }}
-        <div @click="removeTag(index)" class="popular-tags__close">X</div>
+        <div class="popular-tags__action">X</div>
       </div>
     </div>
   </div>
@@ -19,13 +19,6 @@ export default {
       type: Array,
     },
   },
-
-  methods: {
-    removeTag(index) {
-      console.log(`Tag id - ${index} removed`);
-      this.$emit("remove", index);
-    },
-  },
 };
 </script>
 <style lang="scss">
@@ -35,24 +28,30 @@ export default {
     display: flex;
     flex-wrap: wrap;
   }
+
   //   .popular-tags__item
   &__item {
     display: flex;
     padding: 10px 41px;
     border-radius: 10px;
-    color: white;
+    color: $color-light;
     cursor: pointer;
     background-color: $color-simple-primary;
+    margin-bottom: 10px;
+
+    // .popular-tags__item:hover
     &:hover {
       background-color: $color-danger;
     }
-    margin-bottom: 10px;
+
+    // .popular-tags__item:not(:last-child)
     &:not(:last-child) {
       margin-right: 10px;
     }
   }
-  //   .popular-tags__close
-  &__close {
+
+  //   .popular-tags__action
+  &__action {
     margin-left: 10px;
   }
 }

@@ -7,7 +7,8 @@
       "about-get-info:success",
       "product-get-info:success",
       "manufacturingCycle-get-info:success",
-      "catalog-get-info:success"
+      "catalog-get-info:success",
+      "blog-get-info:success"
     ]
   }
 ]

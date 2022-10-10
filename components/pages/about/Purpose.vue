@@ -27,11 +27,13 @@ export default {
 <style lang="scss">
 .purpose {
   margin-bottom: 150px;
+
   // .purpose__content
   &__content {
     display: flex;
     flex-wrap: wrap;
   }
+
   // .purpose__info
   &__info {
     width: 648px;
@@ -43,11 +45,13 @@ export default {
       margin-top: 30px;
     }
   }
+
   // .purpose__title
   &__title {
     text-align: center;
     margin-bottom: 50px;
   }
+
   // .purpose__image
   &__image {
     object-fit: cover;

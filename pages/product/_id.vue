@@ -1,5 +1,5 @@
 <template>
-  <main class="product-page">
+  <main class="product-page" v-if="pageData">
     <MainProduct
       class="product-page__full-product"
       :productData="pageData.product"
@@ -11,6 +11,7 @@
       :assemblyInstructionsData="pageData.assemblyInstructions"
       v-if="pageData.assemblyInstructions"
     />
+
     <!-- <VideoGuide class="product-page__video-guide" /> -->
 
     <QualityCertificates
@@ -70,19 +71,19 @@ export default {
     Discount,
     Blog,
   },
-  data() {
-    return {
-      pageData: {},
-    };
-  },
+
   methods: {
     ...mapActions({ loadPage: "api/product/LOAD_PAGE" }),
+  },
+
+  computed: {
+    ...mapGetters({ pageData: "api/product/PAGE_DATA" }),
   },
 
   async mounted() {
     console.log("this.$route:", this.$route.params.id);
     if (!this.$route.params.id) throw new Error(`this page dont have id`);
-    this.pageData = await this.loadPage(this.$route.params.id);
+    await this.loadPage(this.$route.params.id);
   },
 };
 </script>

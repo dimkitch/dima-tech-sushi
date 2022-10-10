@@ -7,7 +7,7 @@
             {{ customerFeedbackData.title }}
           </h2>
         </div>
-        <div ref="swiperSlider">
+        <div class="customer-feedback__slider-wrapper" ref="swiperSlider">
           <div class="customer-feedback__body swiper-wrapper">
             <CustomerCard
               class="swiper-slide"
@@ -95,28 +95,34 @@ export default {
 <style lang="scss">
 .customer-feedback {
   background-color: $color-secondary;
-  @media (max-width: $breakpoint-tablet) {
-    background-color: inherit;
+  @media (max-width: $breakpoint-desktop-md) {
+    background: none;
   }
 
   // .customer-feedback__wrapper
   &__wrapper {
     padding: 100px 0;
+    @media (max-width: $breakpoint-desktop-md) {
+      padding: 0;
+    }
   }
 
   // .customer-feedback__header
   &__header {
     text-align: center;
   }
-
   // .customer-feedback__title
   &__title {
+    margin-bottom: 39px;
   }
-
   // .customer-feedback__body
   &__body {
     margin-top: 80px;
     margin-bottom: 70px;
+    @media (max-width: $breakpoint-desktop-md) {
+      margin-top: 0;
+      margin-bottom: 49px;
+    }
   }
 
   // .customer-feedback__footer
@@ -129,5 +135,8 @@ export default {
       margin-right: 24px;
     }
   }
+}
+.customer-feedback__slider-wrapper {
+  overflow: hidden;
 }
 </style>

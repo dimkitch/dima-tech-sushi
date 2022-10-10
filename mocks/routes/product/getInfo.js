@@ -4,7 +4,7 @@ const DATA = {
       id: 1,
       product: {
         slider: [
-          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EPsbXPYoSNH92D7vYgtyishd79jMlUn_xVS4qy0kUbD2jjIzX6oriaxEWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=bd3ae9e43639b26b45365d5954f54ac9-5233066-images-thumbs&n=13&exp=1",
           "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
           "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
           "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
@@ -157,6 +157,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -209,13 +233,64 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },
     },
     {
       id: 2,
+      product: {
+        slider: [
+          "https://dengodel.com/wp-content/uploads/2019/07/1-60.jpg",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+        ],
+
+        name: "Конструктор деревянный “название”",
+        description:
+          "Конструкторы из дерева — это прекрасная возможность для развития моторики пальцев и пространственного мышления. Ребенок составляет простейшие композиции, учится совмещать детали, выравнивать их, придавать всей конструкции устойчивость. Все это кажется таким простым и доступным для взрослого человека, но еще такое сложное для малыша, которые только познает мир. Попробуйте решать с помощью фигур конструктора простейшие математические задачи: какой предмет крупнее, чем отличится геометрические формы? Все это важные шаги на пути к постепенному развитию малыша.",
+        subinfo: [
+          { name: "3+", description: "Возрастная группа" },
+          { name: "3+", description: "srewrwrwr грwrwrwуппа" },
+          { name: "3+", description: "rwrwr rwrwrwrw" },
+        ],
+      },
+      infoBlock: {
+        description: [
+          {
+            name: "Описание товара",
+            text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less The point of using Lorem Ipsum is that it has a more-or-less ",
+          },
+        ],
+        feature: [
+          {
+            name: "Характеристики",
+            list: [
+              "Характеристики",
+              "Дерево",
+              "Для детей от 3-х лет",
+              "Лёгкая сложность сборки",
+              "163 детали",
+              "Картонная упаковка",
+            ],
+          },
+        ],
+        banner: {
+          image: "",
+          link: "",
+        },
+      },
       assemblyInstructions: {
         title: " Инструкция по сборке",
         // image: require("~@/assets/img/some-img.png"),
@@ -254,7 +329,7 @@ const DATA = {
       },
 
       qualitiCertificate: {
-        title: "сертификаты качества2222222222222222222",
+        title: "сертификаты качества111111111111",
         features: [
           {
             id: 1,
@@ -321,6 +396,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -373,13 +472,64 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },
     },
     {
       id: 3,
+      product: {
+        slider: [
+          "https://rognowsky.ru/wp-content/uploads/2020/01/1099254284-_d0_9a_d0_b0_d0_ba_20_d0_bf_d1_80_d0_b0_d0_b2_d0_b8_d0_bb_d0_be_2c_20_d1_82_d0_be_20_d1_87_d1_82_d0_be_20_d0_bf_d1_80_d0_be_d0_b8_d0_b7_d0_b2_d0_be_d0_b4_d0_b8_d1_82_d1_8c_d1_81_-scaled.jpg",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+        ],
+
+        name: "Конструктор деревянный “название”",
+        description:
+          "Конструкторы из дерева — это прекрасная возможность для развития моторики пальцев и пространственного мышления. Ребенок составляет простейшие композиции, учится совмещать детали, выравнивать их, придавать всей конструкции устойчивость. Все это кажется таким простым и доступным для взрослого человека, но еще такое сложное для малыша, которые только познает мир. Попробуйте решать с помощью фигур конструктора простейшие математические задачи: какой предмет крупнее, чем отличится геометрические формы? Все это важные шаги на пути к постепенному развитию малыша.",
+        subinfo: [
+          { name: "3+", description: "Возрастная группа" },
+          { name: "3+", description: "srewrwrwr грwrwrwуппа" },
+          { name: "3+", description: "rwrwr rwrwrwrw" },
+        ],
+      },
+      infoBlock: {
+        description: [
+          {
+            name: "Описание товара",
+            text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less The point of using Lorem Ipsum is that it has a more-or-less ",
+          },
+        ],
+        feature: [
+          {
+            name: "Характеристики",
+            list: [
+              "Характеристики",
+              "Дерево",
+              "Для детей от 3-х лет",
+              "Лёгкая сложность сборки",
+              "163 детали",
+              "Картонная упаковка",
+            ],
+          },
+        ],
+        banner: {
+          image: "",
+          link: "",
+        },
+      },
       assemblyInstructions: {
         title: " Инструкция по сборке",
         // image: require("~@/assets/img/some-img.png"),
@@ -485,6 +635,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -537,13 +711,64 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },
     },
     {
       id: 4,
+      product: {
+        slider: [
+          "https://rognowsky.ru/wp-content/uploads/2020/01/1099254284-_d0_9a_d0_b0_d0_ba_20_d0_bf_d1_80_d0_b0_d0_b2_d0_b8_d0_bb_d0_be_2c_20_d1_82_d0_be_20_d1_87_d1_82_d0_be_20_d0_bf_d1_80_d0_be_d0_b8_d0_b7_d0_b2_d0_be_d0_b4_d0_b8_d1_82_d1_8c_d1_81_-scaled.jpg",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+        ],
+
+        name: "Конструктор деревянный “название”",
+        description:
+          "Конструкторы из дерева — это прекрасная возможность для развития моторики пальцев и пространственного мышления. Ребенок составляет простейшие композиции, учится совмещать детали, выравнивать их, придавать всей конструкции устойчивость. Все это кажется таким простым и доступным для взрослого человека, но еще такое сложное для малыша, которые только познает мир. Попробуйте решать с помощью фигур конструктора простейшие математические задачи: какой предмет крупнее, чем отличится геометрические формы? Все это важные шаги на пути к постепенному развитию малыша.",
+        subinfo: [
+          { name: "3+", description: "Возрастная группа" },
+          { name: "3+", description: "srewrwrwr грwrwrwуппа" },
+          { name: "3+", description: "rwrwr rwrwrwrw" },
+        ],
+      },
+      infoBlock: {
+        description: [
+          {
+            name: "Описание товара",
+            text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less The point of using Lorem Ipsum is that it has a more-or-less ",
+          },
+        ],
+        feature: [
+          {
+            name: "Характеристики",
+            list: [
+              "Характеристики",
+              "Дерево",
+              "Для детей от 3-х лет",
+              "Лёгкая сложность сборки",
+              "163 детали",
+              "Картонная упаковка",
+            ],
+          },
+        ],
+        banner: {
+          image: "",
+          link: "",
+        },
+      },
       assemblyInstructions: {
         title: " Инструкция по сборке",
         // image: require("~@/assets/img/some-img.png"),
@@ -649,6 +874,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -701,13 +950,64 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },
     },
     {
       id: 5,
+      product: {
+        slider: [
+          "https://rognowsky.ru/wp-content/uploads/2020/01/1099254284-_d0_9a_d0_b0_d0_ba_20_d0_bf_d1_80_d0_b0_d0_b2_d0_b8_d0_bb_d0_be_2c_20_d1_82_d0_be_20_d1_87_d1_82_d0_be_20_d0_bf_d1_80_d0_be_d0_b8_d0_b7_d0_b2_d0_be_d0_b4_d0_b8_d1_82_d1_8c_d1_81_-scaled.jpg",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+        ],
+
+        name: "Конструктор деревянный “название”",
+        description:
+          "Конструкторы из дерева — это прекрасная возможность для развития моторики пальцев и пространственного мышления. Ребенок составляет простейшие композиции, учится совмещать детали, выравнивать их, придавать всей конструкции устойчивость. Все это кажется таким простым и доступным для взрослого человека, но еще такое сложное для малыша, которые только познает мир. Попробуйте решать с помощью фигур конструктора простейшие математические задачи: какой предмет крупнее, чем отличится геометрические формы? Все это важные шаги на пути к постепенному развитию малыша.",
+        subinfo: [
+          { name: "3+", description: "Возрастная группа" },
+          { name: "3+", description: "srewrwrwr грwrwrwуппа" },
+          { name: "3+", description: "rwrwr rwrwrwrw" },
+        ],
+      },
+      infoBlock: {
+        description: [
+          {
+            name: "Описание товара",
+            text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less The point of using Lorem Ipsum is that it has a more-or-less ",
+          },
+        ],
+        feature: [
+          {
+            name: "Характеристики",
+            list: [
+              "Характеристики",
+              "Дерево",
+              "Для детей от 3-х лет",
+              "Лёгкая сложность сборки",
+              "163 детали",
+              "Картонная упаковка",
+            ],
+          },
+        ],
+        banner: {
+          image: "",
+          link: "",
+        },
+      },
       assemblyInstructions: {
         title: " Инструкция по сборке",
         // image: require("~@/assets/img/some-img.png"),
@@ -813,6 +1113,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -865,13 +1189,64 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },
     },
     {
       id: 6,
+      product: {
+        slider: [
+          "https://rognowsky.ru/wp-content/uploads/2020/01/1099254284-_d0_9a_d0_b0_d0_ba_20_d0_bf_d1_80_d0_b0_d0_b2_d0_b8_d0_bb_d0_be_2c_20_d1_82_d0_be_20_d1_87_d1_82_d0_be_20_d0_bf_d1_80_d0_be_d0_b8_d0_b7_d0_b2_d0_be_d0_b4_d0_b8_d1_82_d1_8c_d1_81_-scaled.jpg",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+        ],
+
+        name: "Конструктор деревянный “название”",
+        description:
+          "Конструкторы из дерева — это прекрасная возможность для развития моторики пальцев и пространственного мышления. Ребенок составляет простейшие композиции, учится совмещать детали, выравнивать их, придавать всей конструкции устойчивость. Все это кажется таким простым и доступным для взрослого человека, но еще такое сложное для малыша, которые только познает мир. Попробуйте решать с помощью фигур конструктора простейшие математические задачи: какой предмет крупнее, чем отличится геометрические формы? Все это важные шаги на пути к постепенному развитию малыша.",
+        subinfo: [
+          { name: "3+", description: "Возрастная группа" },
+          { name: "3+", description: "srewrwrwr грwrwrwуппа" },
+          { name: "3+", description: "rwrwr rwrwrwrw" },
+        ],
+      },
+      infoBlock: {
+        description: [
+          {
+            name: "Описание товара",
+            text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less The point of using Lorem Ipsum is that it has a more-or-less ",
+          },
+        ],
+        feature: [
+          {
+            name: "Характеристики",
+            list: [
+              "Характеристики",
+              "Дерево",
+              "Для детей от 3-х лет",
+              "Лёгкая сложность сборки",
+              "163 детали",
+              "Картонная упаковка",
+            ],
+          },
+        ],
+        banner: {
+          image: "",
+          link: "",
+        },
+      },
       assemblyInstructions: {
         title: " Инструкция по сборке",
         // image: require("~@/assets/img/some-img.png"),
@@ -977,6 +1352,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -1029,13 +1428,64 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },
     },
     {
       id: 7,
+      product: {
+        slider: [
+          "https://rognowsky.ru/wp-content/uploads/2020/01/1099254284-_d0_9a_d0_b0_d0_ba_20_d0_bf_d1_80_d0_b0_d0_b2_d0_b8_d0_bb_d0_be_2c_20_d1_82_d0_be_20_d1_87_d1_82_d0_be_20_d0_bf_d1_80_d0_be_d0_b8_d0_b7_d0_b2_d0_be_d0_b4_d0_b8_d1_82_d1_8c_d1_81_-scaled.jpg",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+        ],
+
+        name: "Конструктор деревянный “название”",
+        description:
+          "Конструкторы из дерева — это прекрасная возможность для развития моторики пальцев и пространственного мышления. Ребенок составляет простейшие композиции, учится совмещать детали, выравнивать их, придавать всей конструкции устойчивость. Все это кажется таким простым и доступным для взрослого человека, но еще такое сложное для малыша, которые только познает мир. Попробуйте решать с помощью фигур конструктора простейшие математические задачи: какой предмет крупнее, чем отличится геометрические формы? Все это важные шаги на пути к постепенному развитию малыша.",
+        subinfo: [
+          { name: "3+", description: "Возрастная группа" },
+          { name: "3+", description: "srewrwrwr грwrwrwуппа" },
+          { name: "3+", description: "rwrwr rwrwrwrw" },
+        ],
+      },
+      infoBlock: {
+        description: [
+          {
+            name: "Описание товара",
+            text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less The point of using Lorem Ipsum is that it has a more-or-less ",
+          },
+        ],
+        feature: [
+          {
+            name: "Характеристики",
+            list: [
+              "Характеристики",
+              "Дерево",
+              "Для детей от 3-х лет",
+              "Лёгкая сложность сборки",
+              "163 детали",
+              "Картонная упаковка",
+            ],
+          },
+        ],
+        banner: {
+          image: "",
+          link: "",
+        },
+      },
       assemblyInstructions: {
         title: " Инструкция по сборке",
         // image: require("~@/assets/img/some-img.png"),
@@ -1141,6 +1591,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -1193,13 +1667,64 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },
     },
     {
       id: 8,
+      product: {
+        slider: [
+          "https://rognowsky.ru/wp-content/uploads/2020/01/1099254284-_d0_9a_d0_b0_d0_ba_20_d0_bf_d1_80_d0_b0_d0_b2_d0_b8_d0_bb_d0_be_2c_20_d1_82_d0_be_20_d1_87_d1_82_d0_be_20_d0_bf_d1_80_d0_be_d0_b8_d0_b7_d0_b2_d0_be_d0_b4_d0_b8_d1_82_d1_8c_d1_81_-scaled.jpg",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+        ],
+
+        name: "Конструктор деревянный “название”",
+        description:
+          "Конструкторы из дерева — это прекрасная возможность для развития моторики пальцев и пространственного мышления. Ребенок составляет простейшие композиции, учится совмещать детали, выравнивать их, придавать всей конструкции устойчивость. Все это кажется таким простым и доступным для взрослого человека, но еще такое сложное для малыша, которые только познает мир. Попробуйте решать с помощью фигур конструктора простейшие математические задачи: какой предмет крупнее, чем отличится геометрические формы? Все это важные шаги на пути к постепенному развитию малыша.",
+        subinfo: [
+          { name: "3+", description: "Возрастная группа" },
+          { name: "3+", description: "srewrwrwr грwrwrwуппа" },
+          { name: "3+", description: "rwrwr rwrwrwrw" },
+        ],
+      },
+      infoBlock: {
+        description: [
+          {
+            name: "Описание товара",
+            text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less The point of using Lorem Ipsum is that it has a more-or-less ",
+          },
+        ],
+        feature: [
+          {
+            name: "Характеристики",
+            list: [
+              "Характеристики",
+              "Дерево",
+              "Для детей от 3-х лет",
+              "Лёгкая сложность сборки",
+              "163 детали",
+              "Картонная упаковка",
+            ],
+          },
+        ],
+        banner: {
+          image: "",
+          link: "",
+        },
+      },
       assemblyInstructions: {
         title: " Инструкция по сборке",
         // image: require("~@/assets/img/some-img.png"),
@@ -1305,6 +1830,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -1357,13 +1906,64 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },
     },
     {
       id: 9,
+      product: {
+        slider: [
+          "https://rognowsky.ru/wp-content/uploads/2020/01/1099254284-_d0_9a_d0_b0_d0_ba_20_d0_bf_d1_80_d0_b0_d0_b2_d0_b8_d0_bb_d0_be_2c_20_d1_82_d0_be_20_d1_87_d1_82_d0_be_20_d0_bf_d1_80_d0_be_d0_b8_d0_b7_d0_b2_d0_be_d0_b4_d0_b8_d1_82_d1_8c_d1_81_-scaled.jpg",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP5redbI-IEIKH7awv4C-qgdX-g50Ez6YDFoy00UcdX2XjIj30q7iYwUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://img.fonwall.ru/o/ss/pole-kolosya-zelenoe-nebo.jpg?route=mid&amp;h=750",
+          "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EP67KaaNHTGNiE6qYns3qv19-ogsIAz_1SFI_nhEAcCz_jIj_6qrSdxUWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+          "https://avatars.mds.yandex.net/i?id=58991ca995de3a6e86c0cd2b4dda4203-5710384-images-thumbs&n=13&exp=1",
+        ],
+
+        name: "Конструктор деревянный “название”",
+        description:
+          "Конструкторы из дерева — это прекрасная возможность для развития моторики пальцев и пространственного мышления. Ребенок составляет простейшие композиции, учится совмещать детали, выравнивать их, придавать всей конструкции устойчивость. Все это кажется таким простым и доступным для взрослого человека, но еще такое сложное для малыша, которые только познает мир. Попробуйте решать с помощью фигур конструктора простейшие математические задачи: какой предмет крупнее, чем отличится геометрические формы? Все это важные шаги на пути к постепенному развитию малыша.",
+        subinfo: [
+          { name: "3+", description: "Возрастная группа" },
+          { name: "3+", description: "srewrwrwr грwrwrwуппа" },
+          { name: "3+", description: "rwrwr rwrwrwrw" },
+        ],
+      },
+      infoBlock: {
+        description: [
+          {
+            name: "Описание товара",
+            text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less The point of using Lorem Ipsum is that it has a more-or-less ",
+          },
+        ],
+        feature: [
+          {
+            name: "Характеристики",
+            list: [
+              "Характеристики",
+              "Дерево",
+              "Для детей от 3-х лет",
+              "Лёгкая сложность сборки",
+              "163 детали",
+              "Картонная упаковка",
+            ],
+          },
+        ],
+        banner: {
+          image: "",
+          link: "",
+        },
+      },
       assemblyInstructions: {
         title: " Инструкция по сборке",
         // image: require("~@/assets/img/some-img.png"),
@@ -1469,6 +2069,30 @@ const DATA = {
               location: "Санкт-Петербург",
             },
           },
+          {
+            id: 2,
+            title: "«222222222222222222222222»",
+            description:
+              "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            author: {
+              image:
+                "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+              name: "Кирил Загорный",
+              location: "Ростов",
+            },
+          },
+          {
+            id: 3,
+            title: "33333333333333333333333333",
+            description:
+              "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
+            author: {
+              image:
+                "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
+              name: "Владислав Потопной",
+              location: "Москва",
+            },
+          },
         ],
       },
 
@@ -1521,7 +2145,8 @@ const DATA = {
             title: "Заголовок новости 2",
             description:
               "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-            image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+            image:
+              "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
           },
         ],
       },

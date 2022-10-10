@@ -2,7 +2,9 @@
   <div class="mob-header">
     <div class="mob-header__inner">
       <div class="mob-header__top">
-        <img class="mob-header__logo" src="~@/assets/img/header-logo.png" />
+        <nuxt-link class="mob-header__logo" :to="{ name: 'index' }">
+          <img src="~@/assets/img/header-logo.png" />
+        </nuxt-link>
         <CloseIcon class="mob-header__btn-close" @click="$emit('close')" />
       </div>
       <nav class="mob-header__nav">
@@ -60,19 +62,18 @@ export default {
     Callback,
     CustomInputSearch,
   },
-  props: {},
+
   data() {
     return {
       navMenu: [
         { name: "Каталог", link: "catalog" },
         { name: "О компании", link: "about" },
-        { name: "Блог", link: "" },
         { name: "Цикл производства", link: "manufacturingCycle" },
-        { name: "Товар", link: "product" },
       ],
       mobIsActive: false,
     };
   },
+
   mounted() {
     document.body.addEventListener("keyup", (e) => {
       if (e.keyCode === 27) this.$emit("close");
@@ -85,7 +86,6 @@ export default {
   width: 100vw;
   height: 100vh;
   background-color: $color-dark-light;
-
   position: fixed;
   z-index: 1000;
   top: 0;

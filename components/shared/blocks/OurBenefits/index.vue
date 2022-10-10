@@ -2,9 +2,7 @@
   <section class="our-benefits">
     <div class="container">
       <div class="our-benefits__header">
-        <h2
-          class="our-benefits__title title-xl color-dark-deep tf-up lsp fw-heavy"
-        >
+        <h2 class="our-benefits__title title-xl color-dark-deep tf-up fw-heavy">
           {{ ourBenefitsData.title }}
         </h2>
       </div>
@@ -25,6 +23,7 @@ export default {
   components: {
     BenefitCard,
   },
+
   props: {
     ourBenefitsData: {
       type: Object,
@@ -38,23 +37,28 @@ export default {
   &__title {
     margin-bottom: 38px;
   }
+
   // .our-benefits__body
   &__body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 29px;
     @media (max-width: $breakpoint-tablet) {
       grid-template-columns: 1fr;
       gap: 10px;
     }
   }
+
   // .our-benefits__item
   &__item {
     background-color: $color-primary;
 
+    //  .our-benefits__item:nth-child(2n)
     &:nth-child(2n) {
       background-color: $color-accent;
     }
+
+    //  .our-benefits__item:nth-child(3n)
     &:nth-child(3n) {
       background-color: $color-success;
     }

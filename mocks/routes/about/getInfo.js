@@ -126,7 +126,8 @@ const DATA = {
           title: "Заголовок новости 2",
           description:
             "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-          image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+          image:
+            "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
         },
       ],
     },

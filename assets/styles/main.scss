@@ -19,20 +19,22 @@ h6 {
   font-weight: 700;
 }
 .container {
-  max-width: 1380px;
-  padding: 0 20px;
+  width: 1380px;
+
+  padding-right: $container-gap-width-desktop;
+  padding-left: $container-gap-width-desktop;
+
   margin: 0 auto;
   @media (max-width: $breakpoint-desktop-md) {
-    max-width: $container-max-width-desktop-md;
+    width: $container-width-desktop-md;
   }
   @media (max-width: $breakpoint-tablet) {
-    max-width: $container-max-width-tablet;
+    width: $container-width-tablet;
   }
   @media (max-width: $breakpoint-tablet-md) {
-    max-width: $container-max-width-tablet-md;
+    width: $container-width-tablet-md;
   }
   @media (max-width: $breakpoint-mob) {
-    max-width: $container-max-width-mob;
-    padding: 0 51px;
+    width: $container-width-mob;
   }
 }

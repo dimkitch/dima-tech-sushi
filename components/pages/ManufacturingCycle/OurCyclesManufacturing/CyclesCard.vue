@@ -38,7 +38,6 @@ export default {
   gap: 25px;
   @media (max-width: $breakpoint-desktop-md) {
     grid-template-columns: 1fr;
-    gap: 0;
   }
   // .cycle-card__info
   &__info {

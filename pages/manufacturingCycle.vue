@@ -1,5 +1,5 @@
 <template>
-  <main class="manufacturing-сycle-page">
+  <main class="manufacturing-сycle-page" v-if="pageData">
     <OurCyclesManufacturing
       class="manufacturing-сycle-page__our-cycles-manufacturing"
       :ourCyclesManufacturingData="pageData.ourCyclesManufacturing"
@@ -39,17 +39,16 @@ export default {
     QualityCertificates,
     Blog,
   },
-  data() {
-    return {
-      pageData: {},
-    };
-  },
   methods: {
     ...mapActions({ loadPage: "api/manufacturingCycle/LOAD_PAGE" }),
   },
 
+  computed: {
+    ...mapGetters({ pageData: "api/manufacturingCycle/PAGE_DATA" }),
+  },
+
   async mounted() {
-    this.pageData = await this.loadPage();
+    await this.loadPage();
   },
 };
 </script>
@@ -60,14 +59,17 @@ export default {
     margin-top: 50px;
     margin-bottom: 150px;
   }
+
   //   .manufacturing-сycle-page__our-benefits
   &__our-benefits {
     margin-bottom: 150px;
   }
+
   //   .manufacturing-сycle-page__quality-certificates
   &__quality-certificates {
     margin-bottom: 230px;
   }
+
   //   .manufacturing-сycle-page__blog
   &__blog {
     margin-bottom: 211px;

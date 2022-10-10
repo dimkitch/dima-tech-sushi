@@ -1,5 +1,5 @@
 <template>
-  <main class="about-page">
+  <main class="about-page" v-if="pageData">
     <AboutCompany
       class="about-page__about-company"
       :aboutCompanyData="pageData.aboutCompany"
@@ -56,17 +56,17 @@ export default {
     QualityCertificates,
     Blog,
   },
-  data() {
-    return {
-      pageData: {},
-    };
-  },
+
   methods: {
     ...mapActions({ loadPage: "api/about/LOAD_PAGE" }),
   },
 
+  computed: {
+    ...mapGetters({ pageData: "api/about/PAGE_DATA" }),
+  },
+
   async mounted() {
-    this.pageData = await this.loadPage();
+    await this.loadPage();
   },
 };
 </script>
@@ -77,22 +77,27 @@ export default {
     margin-top: 94px;
     margin-bottom: 226px;
   }
+
   // .about-page__purpose
   &__purpose {
     margin-bottom: 150px;
   }
+
   // .about-page__our-standarts
   &__our-standarts {
     margin-bottom: 150px;
   }
+
   // .about-page__our-benefits
   &__our-benefits {
     margin-bottom: 150px;
   }
+
   // .about-page__quality-certificates
   &__quality-certificates {
     margin-bottom: 230px;
   }
+
   // .about-page__blog
   &__blog {
     margin-bottom: 80px;

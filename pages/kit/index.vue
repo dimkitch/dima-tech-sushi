@@ -48,9 +48,6 @@
             Игрушки оптом и в розницу
           </CustomButton>
         </div>
-        <h2>
-          -----------------------------------------------------------------------------------------------------------------------------
-        </h2>
         <div class="kit-page__item">
           <CustomButton size="nr" theme="light"> Купить на OZON </CustomButton>
         </div>
@@ -67,8 +64,11 @@
         </div>
         <h2>Modals:</h2>
         <div class="kit-page__item">
-          <ModalWrapper v-show="modalFirst" @close="modalFirst = false">
-            <CustomForm />
+          <ModalWrapper v-if="modalFirst" @close="modalFirst = false" size="lg">
+            <template #header
+              ><img src="@/assets/img/discount-ozon.png" alt=""
+            /></template>
+            <DiscountOzon />
           </ModalWrapper>
           <button @click="modalFirst = !modalFirst">
             <h2>Open Modal</h2>
@@ -86,7 +86,7 @@
 </template>
 
 <script>
-import CustomForm from "@/components/shared/forms/CustomForm.vue";
+import DiscountOzon from "@/components/shared/forms/DiscountOzon.vue";
 import CustomButton from "@/components/common/controls/CustomButton.vue";
 import DropDown from "@/components/common/inputs/DropDown.vue";
 import ProductCard from "@/components/shared/cards/ProductCard.vue";
@@ -97,7 +97,7 @@ import ArrowRight from "@/components/common/icons/ArrowRight.vue";
 export default {
   components: {
     CustomButton,
-    CustomForm,
+    DiscountOzon,
     ArrowLeft,
     ArrowRight,
     DropDown,
@@ -110,22 +110,22 @@ export default {
     return {
       modalFirst: false,
       listOptions: [
-        { name: "1Наименование" },
-        { name: "2Наименование" },
-        { name: "3Наименование" },
-        { name: "4Наименование" },
-        { name: "5Наименование" },
-        { name: "6Наименование" },
-        { name: "7Наименование" },
-        { name: "8Наименование" },
-        { name: "9Наименование" },
-        { name: "10Наименование" },
-        { name: "11Наименование" },
-        { name: "12Наименование" },
-        { name: "13Наименование" },
-        { name: "14Наименование" },
-        { name: "15Наименование" },
-        { name: "16Наименование" },
+        { description: "1Наименование" },
+        { description: "2Наименование" },
+        { description: "3Наименование" },
+        { description: "4Наименование" },
+        { description: "5Наименование" },
+        { description: "6Наименование" },
+        { description: "7Наименование" },
+        { description: "8Наименование" },
+        { description: "9Наименование" },
+        { description: "10Наименование" },
+        { description: "11Наименование" },
+        { description: "12Наименование" },
+        { description: "13Наименование" },
+        { description: "14Наименование" },
+        { description: "15Наименование" },
+        { description: "16Наименование" },
       ],
       exampleOption: "",
     };

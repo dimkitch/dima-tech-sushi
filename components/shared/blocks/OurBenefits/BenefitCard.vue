@@ -24,13 +24,23 @@ export default {
 .benefit-card {
   min-height: 296px;
   border-radius: 20px;
+  @media (max-width: $breakpoint-mob) {
+    min-height: 208px;
+  }
   // .benefit-card__content
   &__content {
     padding: 30px;
+    @media (max-width: $breakpoint-mob) {
+      padding: 20px;
+    }
   }
+
   // .benefit-card__title
   &__title {
     margin-bottom: 61px;
+    @media (max-width: $breakpoint-mob) {
+      margin-bottom: 30px;
+    }
   }
 }
 </style>

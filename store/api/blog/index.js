@@ -17,8 +17,8 @@ export const mutations = {
 };
 
 export const actions = {
-  async LOAD_PAGE(context) {
-    const result = await fetch(API + "manufacturingCycle/getInfo")
+  async LOAD_PAGE(context, id) {
+    const result = await fetch(API + `blog/getInfo`)
       .then((response) => {
         return response.json();
       })
@@ -28,6 +28,9 @@ export const actions = {
       .catch((e) => {
         throw new Error(e);
       });
-    context.commit("SET_PAGE_DATA", result);
+    context.commit(
+      "SET_PAGE_DATA",
+      result.find((item) => item.id === +id) || {}
+    );
   },
 };

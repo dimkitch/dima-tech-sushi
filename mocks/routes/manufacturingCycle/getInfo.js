@@ -20,7 +20,7 @@ const DATA = {
           num: "2",
           title: "Tools, Resources, and Education",
           description:
-            "NHCA will support its members in reaching out to their political representatives. We will be there for your business whenever it is threatened at the federal, state or municipal level.Members will receive regular updates on pending legislation and regulations affecting hookah and hookah relatedproductshroughstateandfederalnewsupdatMembers will also be provided the most relevant news and insights for improving your business and informing the community.",
+            "NHCA will support its members in reaching out to their political representatives. We will be there for your business whenever it is threatened at the federal, state or municipal level.Members will receive regular updates on pending legislation and regulations affecting hookah and hookah related products hroughstate and federal news updat Members will also be provided the most relevant news and insights for improving your business and informing the community.",
           image:
             "https://avatars.mds.yandex.net/i?id=049d674e777b8531c67cf438dd4af054-6276427-images-thumbs&n=13&exp=1",
         },

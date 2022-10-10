@@ -9,7 +9,7 @@
             'header__mob--active': mobIsActive,
           }"
         />
-        <div class="header__top" :class="{ 'header__top--scroll': scroll }">
+        <div class="header__top">
           <nuxt-link :to="{ name: 'index' }">
             <img
               class="header__logo"
@@ -77,30 +77,18 @@ export default {
       navMenu: [
         { name: "Каталог", link: "catalog" },
         { name: "О компании", link: "about" },
-        { name: "Блог", link: "" },
         { name: "Цикл производства", link: "manufacturingCycle" },
       ],
       mobIsActive: false,
-      scroll: false,
-      scrollPosition: 0,
     };
   },
 
   methods: {
-    scrolling() {
-      if (window.scrollY > 100) return (this.scroll = true);
-      else if (window.scrollY < 100) return (this.scroll = false);
-    },
-    onScroll(event) {
-      let container = event.target;
-      this.scrollPosition = container.scrollTop;
-      console.log(event);
-    },
-
     showMenu() {
       this.mobIsActive = true;
       document.body.style.overflow = "hidden";
     },
+
     hiddenMenu() {
       this.mobIsActive = false;
       document.body.style.overflow = "auto";
@@ -164,10 +152,7 @@ export default {
     height: 72px;
     align-items: center;
     border-bottom: 1px solid $color-secondary-light-deep;
-    // .header__top--scroll
-    &--scroll {
-      background-color: red;
-    }
+
     @media (max-width: $breakpoint-tablet) {
       border: none;
       justify-content: center;

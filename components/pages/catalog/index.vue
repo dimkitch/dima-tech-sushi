@@ -12,10 +12,7 @@
         </h3>
 
         <div class="catalog__tags">
-          <PopularTags
-            :tagData="catalogProductsData.tags"
-            @remove="removeTag"
-          />
+          <PopularTags :tagData="catalogProductsData.tags" />
         </div>
         <div class="catalog__cards">
           <ProductCard
@@ -46,11 +43,6 @@ export default {
     return {
       tagHidden: true,
     };
-  },
-  methods: {
-    removeTag(index) {
-      // this.popularTagList.splice(index, 1);
-    },
   },
 };
 </script>
@@ -85,6 +77,7 @@ export default {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px 30px;
+
     @media (max-width: $breakpoint-desktop-md) {
       grid-template-columns: repeat(2, 1fr);
     }

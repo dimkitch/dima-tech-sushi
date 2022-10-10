@@ -1,5 +1,5 @@
 <template>
-  <main class="catalog-page">
+  <main class="catalog-page" v-if="pageData">
     <Catalog
       class="catalog-page__catalog"
       :catalogProductsData="pageData.catalogProducts"
@@ -18,17 +18,17 @@ export default {
     Discount,
     Catalog,
   },
-  data() {
-    return {
-      pageData: {},
-    };
-  },
+
   methods: {
     ...mapActions({ loadPage: "api/catalog/LOAD_PAGE" }),
   },
 
+  computed: {
+    ...mapGetters({ pageData: "api/catalog/PAGE_DATA" }),
+  },
+
   async mounted() {
-    this.pageData = await this.loadPage();
+    await this.loadPage();
   },
 };
 </script>

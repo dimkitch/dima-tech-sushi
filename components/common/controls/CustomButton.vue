@@ -37,6 +37,9 @@ export default {
   border-radius: 20px;
   cursor: pointer;
   transition: $transition-mod;
+  @media (max-width: $breakpoint-mob) {
+    width: 100%;
+  }
   // .custom-btn--xl
   &--xl {
     padding: 9px 48px;
@@ -50,12 +53,16 @@ export default {
   &--md {
     padding: 28px 27px;
     letter-spacing: 0.1em;
+    border: 2px solid $color-accent;
   }
   // .custom-btn--nr
   &--nr {
     padding: 13px 23px;
-
     border-radius: 25px;
+    width: 100%;
+    @media (max-width: $breakpoint-tablet-md) {
+      padding: 10px 14px;
+    }
   }
   // .custom-btn--sm
   &--sm {
@@ -68,6 +75,9 @@ export default {
     font-weight: 700;
     line-height: 18px;
     border: 2px solid $color-accent;
+    @media (max-width: $breakpoint-tablet-md) {
+      padding: 14px 28px;
+    }
     &:hover {
       background-color: $color-light;
       color: $color-accent;
@@ -95,6 +105,12 @@ export default {
     background-color: $color-accent;
     text-transform: uppercase;
     font-weight: 700;
+    // .custom-btn--accent:hover
+    &:hover {
+      color: $color-accent;
+      background-color: $color-light;
+      font-weight: 700;
+    }
   }
   // .custom-btn--light
   &--light {

@@ -15,6 +15,10 @@
   &-mdxl {
     font-size: 48px;
     line-height: 60px;
+    @media (max-width: $breakpoint-tablet-md) {
+      font-size: 28px;
+      line-height: 30px;
+    }
   }
   // .title-xl
   &-xl {
@@ -24,12 +28,17 @@
     @media (max-width: $breakpoint-tablet) {
       font-size: 30px;
       line-height: 35px;
+      letter-spacing: 0.04em;
     }
   }
   // .title-lg
   &-lg {
     font-size: 40px;
     line-height: 143%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 30px;
+      line-height: 35px;
+    }
   }
   // .title-xxl
   &-xxl {
@@ -44,6 +53,10 @@
   &-msxl {
     font-size: 30px;
     line-height: 143%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 21px;
+      line-height: 143%;
+    }
   }
   // .title-xsm
   &-xsm {
@@ -54,6 +67,10 @@
   &-md {
     font-size: 24px;
     line-height: 150%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 22px;
+      line-height: 28px;
+    }
   }
   // .title-nr
   &-nr {
@@ -68,6 +85,10 @@
   &-xl {
     font-size: 17px;
     line-height: 117%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 12px;
+      line-height: 24px;
+    }
   }
   // .text-lg
   &-lg {
@@ -93,6 +114,10 @@
   &-xsm {
     font-size: 20px;
     line-height: 120%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 18px;
+      line-height: 21px;
+    }
   }
 
   // .text-xxl

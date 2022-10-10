@@ -77,7 +77,9 @@
   &__rich-content {
     width: 342px;
     height: 679px;
-    @media (max-width: $breakpoint-tablet-md) {
+    @media (max-width: $breakpoint-mob) {
+      width: 100%;
+      height: 100%;
     }
   }
 }

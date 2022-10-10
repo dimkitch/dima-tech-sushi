@@ -9,32 +9,31 @@ const DATA = {
         {
           id: 1,
           image:
-            "https://blog-imgs-129.fc2.com/y/a/r/yarakan/1564314786295.jpg",
+            "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
         },
         {
           id: 2,
           image:
-            "https://avatars.mds.yandex.net/i?id=b44c2ff9abcc25fbca32ff0e5688f30d-3892269-images-thumbs&n=13&exp=1",
+            "https://images.satom.ru/i3/firms/28/6102/6102505/myagkie-igrushki-ekonom-miks-100-sht-dlya-torgovyh-avtomatov_ba54c8095ac4659_800x600.webp.jpg",
         },
         {
           id: 3,
           image:
-            "https://avatars.mds.yandex.net/i?id=15f799ed5f4a82942b0c0c241aff155c-5676887-images-thumbs&n=13&exp=1",
+            "https://flowers-orel.ru/assets/cache_image/products/593/card/aurora-igrushka-myagkaya-medved-korichnevyj-sidyachij-70-sm_0x0_c2a.jpg",
         },
         {
           id: 4,
-          image:
-            "https://yandex-images.clstorage.net/Kre4H9206/25aac8IuP6-8/mGCbrHFCNvkUfsx2zNbQkRdvvdyuk409EPsbPObtLbGoiB6aEmtHitgoyijZoCzfFRRoq21EFKDDrjIz__qL-ZxkWh2VspbpFE4c53xGoCGXnz2d7uOouGFLO8jGHSk1iGg4LKVpQJlqy_0v2yedWkCxba-clRCmID7l1_hP7oyb04gPNQDVGFBv_Naf15NltM3fqs51_Y0FmBiKor0qZZ2dCe4HqXLoOLmd70sXHOqzA47NKgSAl3BKJXbKT2_smDIY_jSBZ-tjHF6lfBajV7YtTjvM9A3d1AvLSJKdmMTtbFrtFHtgiajbn13bpt44gtBN7Cv1E0WTqgRXS0zvT6mB2O7Ekqe5YTws9K01AQZ1XG_avTUuPYX5mmujv7o2_J2qXdUrAsuqm43_-uZ8OWEgrV-5RBBV4ahmJ5qt_vwpkNqsFcH32qB9b1bOtJC256-u6d0mvAzVuBoagt8KhMzduTxHyTPo2uj8nWinPtsDM22MWwTyxFCJhHaZjLyvqLMYnddCdniBDm7HHsZhVrX_v8t_NF4-NAuoSLI8OjcPfaueZBnC-blafT-IlR4603AdLTj0Irdw-FbHm58PnQsyKKw28hQI0x2eRIz1EGV2_b_If5RNLvR4SIiArAmGf5yK3QT7YgnbWB0cOdbviOHTvM1qVyF0wqpV1bnurpzKgmvPVDO2q6AOXwbuJiAFBS6Oa3x3DPzUW8grocz7xRz-SI4W-TDqGwuO3sl07FlhE_8cKyVBNRMb53W6Xu3cC-P5jxTiVIjgXv8m_EXjNeUtzxqvp9yMBCvJ2fHfycTNbZhPNWowaCup3w-bRA-LYoHtzClHU9dS2ZYmOg8e7vmCe5-X0NWYUl4NFG5VIVclzd3ZX1X_T_X6ejuQrxm17B17PHdLgxkKWdwf2oWeSnKzrOzqRkLEoKjXh3pvX6zZMKm-5cNHO4L-HqS-NMPG95yMiy00_18V6gm5k",
+          image: "https://photo.7ya.ru/ph/2012/7/7/1341648528555.JPG",
         },
         {
           id: 5,
           image:
-            "https://forum.cxem.net/uploads/monthly_10_2015/post-153888-0-27059500-1445710286.jpg",
+            "https://images.satom.ru/i3/firms/28/6102/6102505/myagkie-igrushki-ekonom-miks-100-sht-dlya-torgovyh-avtomatov_b70b8a97358e24e_800x600.webp.jpg",
         },
         {
           id: 6,
           image:
-            "https://avatars.mds.yandex.net/i?id=b5db5867a3ddb0f7dfd566617fedbf0c-4859898-images-thumbs&n=13&exp=1",
+            "https://images.satom.ru/i3/firms/28/6102/6102505/myagkie-igrushki-premium-miks-100-sht-dlya-torgovyh-avtomatov_e235187f5d50e7f_800x600.webp.jpg",
         },
       ],
     },
@@ -166,7 +165,7 @@ const DATA = {
     },
 
     ourBenefits: {
-      title: "Наши преимущества",
+      title: "почему стоит выбрать нас?",
       ourBenefitsCards: [
         {
           id: 1,
@@ -210,8 +209,8 @@ const DATA = {
             "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
           author: {
             image:
-              "https://avatars.mds.yandex.net/i?id=286dc8f47e3ee19de5017b9070531a1d-5603287-images-thumbs&n=13&exp=1",
-            name: "Кирил Загарный",
+              "https://i.pinimg.com/736x/21/f1/d5/21f1d56c65197704f9b87002a954759d--male-portraits-portrait-art.jpg",
+            name: "Кирил Загорный",
             location: "Ростов",
           },
         },
@@ -219,10 +218,10 @@ const DATA = {
           id: 3,
           title: "33333333333333333333333333",
           description:
-            "ortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. ",
+            "Bortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed.",
           author: {
             image:
-              "https://avatars.mds.yandex.net/i?id=286dc8f47e3ee19de5017b9070531a1d-5603287-images-thumbs&n=13&exp=1",
+              "https://avatars.mds.yandex.net/i?id=2a0000017a123a0973c6f25761356dacb97d-3985298-images-thumbs&n=13&exp=1",
             name: "Владислав Потопной",
             location: "Москва",
           },
@@ -238,7 +237,7 @@ const DATA = {
           id: 1,
           title: "Заголовок новости 1",
           description:
-            "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam.  Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
+            "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam.  Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam.  Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam.  Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam.  Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
           image:
             "https://yandex-images.clstorage.net/M9gFx9385/e465cf4Ym3/uSrdk2C1s777vycgANKLCdrM2tuAnMHBtuLp-vKqlkCk6bxDLkSizddwsjMOHo88BBTFLRwzoCP3I5MpivuS-_59nscj_qT--a16LUzVgg3Fh8eYld7YxbG75fu1-8sAr7z1CyEWyfGjUpIJd33_Qn1q2HkXZ_0_vWHeEODu65C3LO62Zbbcp_GnUyEl0Jgm0on_x6HQ-Y2316Ga1OPECeWTyyhrQdTniH2dB3tW011gRvBOMnbvNNpF-xvZncGCpzjohEiX-qT1lkEKFs2GG-y39tOZ__6ZpcCkv-bM0BXmsMEaT1LM4JJVnTh0bOJ2cGXkdTN04gPUWO0J8YLlrIA757BjsNmB97xbDjLujQbIttv5uN_lv5bNjpnd3O0l-5vcMUVE3vyVfqokbWzSZFhe9W4-Uuoz1ULAOfSvy5CbA8OzVKjOt_mVWgEE0psK7LLYxqXf5q6Tz72wx-LfF-Ko_zRdUe_FjGm0DFd_1WB_bsJJL0fuDf11zTbModKcrSbvoWSt8LbwpGIIK9W9OOWs2u-y9tCEjfO8itHAyCL_l-oyWH_47Yl3qjRpf_N8UUzjagpa9zfLVc43xrrOvrcM2Z5DoteV1LRjDDLLlSPPsNbKvfjph77vkb_E3-wUwZ7FOkx_3e2aVYE-YX3FRn1x1VYMZewqy37iJeil4ZGYHuWDaonxp-qpYhMT3qM99pb26ZbLzaSTzbG68PT-PteO3StWTfrplUW_HkJL8258a8tXIEvMIctV-C3YvNyVrA3wg3Gv5J75gm0SNfWDONCG_ci8-eC9se2wjsr3xwPus-MeTXXj6rpBghRIZ9tsTW7WYBpz0y7fVM050aLLsqk7-IR0h_aAxaJEFi3Lvw3EhM3ypN_ampfUoKXK28wdzbL6HXdmzMCNR4YBXk3AfH1o8l4rS-sB4nv5PPGM5LGuA-i0c5_UgPqJawwO-4sG96_V1Lv94ZqR55mSw8w",
         },
@@ -247,7 +246,8 @@ const DATA = {
           title: "Заголовок новости 2",
           description:
             "Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam. Massa commodo leo amet in feugiat non, commodo. Augue senectus felis, suspendisse amet suscipit vestibulum lobortis ornare sed. Pharetra, in duis tortor, iaculis mi magna urna nullam...",
-          image: "https://www.mvestnik.ru/mvfoto/2022/08/22/89.jpg",
+          image:
+            "https://ivbg.ru/wp-content/uploads/2022/09/play-food-color-market-colorful-toy-933551-pxhere.com_.jpg",
         },
       ],
     },

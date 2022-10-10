@@ -3,27 +3,32 @@
     <div class="product-card__header">
       <img :src="cardData.image" class="product-card__image" />
     </div>
-    <div class="product-card__content color-light">
-      <nuxt-link :to="{ name: 'product-id', params: { id: cardData.id } }"
-        ><h3 class="product-card__title title-md bold">
-          {{ cardData.title }}
-        </h3></nuxt-link
-      >
-      <div class="product-card__rate">
-        <StarIcon class="product-card__icon" />
-        <StarIcon class="product-card__icon" />
-        <StarIcon class="product-card__icon" />
-        <StarIcon class="product-card__icon" />
-        <StarIcon class="product-card__icon" />
-        <span class="color-light-simple text-md">(67)</span>
+    <div class="product-card__wrapper">
+      <div class="product-card__content color-light">
+        <nuxt-link :to="{ name: 'product-id', params: { id: cardData.id } }"
+          ><h3 class="product-card__title title-md bold color-light">
+            {{ cardData.title }}
+          </h3></nuxt-link
+        >
+        <div class="product-card__rate">
+          <StarIcon class="product-card__icon" />
+          <StarIcon class="product-card__icon" />
+          <StarIcon class="product-card__icon" />
+          <StarIcon class="product-card__icon" />
+          <StarIcon class="product-card__icon" />
+          <span class="color-light-simple text-md">(67)</span>
+        </div>
+        <p class="product-card__comment text-xl">{{ cardData.description }}</p>
       </div>
-      <p class="product-card__comment text-xl">{{ cardData.description }}</p>
-
       <div class="product-card__controls">
-        <CustomButton class="product-card__btn" size="nr" theme="light">
-          <p class="text-nr fw-bold lh">Купить на OZON</p>
+        <CustomButton
+          size="nr"
+          theme="light"
+          @click="$emit('showDiscountProduct', cardData.id)"
+        >
+          <p class="text-nr fw-bold lh">Купить на ozon</p>
         </CustomButton>
-        <CustomButton class="product-card__btn" size="nr" theme="light">
+        <CustomButton size="nr" theme="light">
           <p class="text-nr fw-bold lh">Купить на WB</p>
         </CustomButton>
       </div>
@@ -38,24 +43,25 @@ export default {
     CustomButton,
     StarIcon,
   },
+
   props: {
     cardData: {
       type: Object,
     },
   },
-  data() {
-    return {};
-  },
 };
 </script>
+
 <style lang="scss">
 .product-card {
   display: flex;
   flex-direction: column;
   max-width: 500px;
+  margin: 0 auto;
   @media (max-width: $breakpoint-tablet) {
     margin: 0 auto;
   }
+
   // .product-card__header
   &__header {
     display: flex;
@@ -63,14 +69,23 @@ export default {
     background: $color-success;
     border-radius: 15px 15px 0px 0px;
   }
+
+  // .product-card__wrapper
+  &__wrapper {
+    border: 2px solid $color-success-simple;
+    border-radius: 0px 0px 15px 15px;
+    border-top: none;
+    background-color: $color-primary;
+  }
+
   //   .product-card__content
   &__content {
-    background-color: $color-primary;
-    border-radius: 0px 0px 15px 15px;
-    border: 2px solid $color-success-simple;
-    border-top: none;
-    padding: 25px 43px 41px 43px;
+    padding: 25px 43px 0 43px;
+    @media (max-width: $breakpoint-tablet) {
+      padding: 28px 28px 0 28px;
+    }
   }
+
   // .product-card__image
   &__image {
     border-radius: 15px 15px 0px 0px;
@@ -95,19 +110,22 @@ export default {
   &__rate {
     margin-bottom: 20px;
   }
+
   //   .card__comment
   &__comment {
     margin-bottom: 30px;
   }
+
   // .card__controls
   &__controls {
-    display: flex;
-    justify-content: space-between;
-  }
-  // .product-card__btn
-  &__btn {
-    &:not(:last-child) {
-      margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 0 41px 41px 41px;
+    @media (max-width: $breakpoint-mob) {
+      margin: 0 15px 25px 15px;
     }
   }
 }

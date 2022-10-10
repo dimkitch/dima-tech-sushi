@@ -1,20 +1,21 @@
 <template>
   <div class="toy-catalog">
     <div class="container">
-      <div class="toy-catalog__wrapper">
+      <div class="toy-catalog__inner">
         <div class="toy-catalog__content">
           <h1 class="toy-catalog__title title-sm color-primary fw-bold tf-up">
             {{ sliderList.title }}
           </h1>
-          <p class="toy-catalog__text text-xl color-dark-simple">
+          <p class="toy-catalog__description text-xl color-dark-simple">
             {{ sliderList.description }}
           </p>
           <div class="toy-catalog__action">
             <CustomButton size="xsm" theme="accent"> Каталог </CustomButton>
           </div>
         </div>
-        <div>
-          <Slider :sliderList="sliderList" class="toy-catalog__slider" />
+
+        <div class="toy-catalog__wrapper">
+          <Slider class="toy-catalog__slider" :sliderList="sliderList" />
         </div>
       </div>
     </div>
@@ -29,6 +30,7 @@ export default {
     CustomButton,
     Slider,
   },
+
   props: {
     sliderList: {
       type: Object,
@@ -38,16 +40,16 @@ export default {
 </script>
 <style lang="scss">
 .toy-catalog {
-  // .toy-catalog__wrapper
-  &__wrapper {
+  // .toy-catalog__inner
+  &__inner {
     display: grid;
-    grid-template-columns: 655px 635px;
+    grid-template-columns: 655px 46%;
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
     border-bottom: 1px solid $color-primary;
     padding-bottom: 110px;
-    @media (max-width: $breakpoint-tablet) {
+    @media (max-width: $breakpoint-desktop-md) {
       display: block;
     }
     @media (max-width: $breakpoint-mob) {
@@ -55,12 +57,17 @@ export default {
       border-bottom: none;
     }
   }
-  // .toy-catalog__content
+
+  //   .toy-catalog__content
   &__content {
     @media (max-width: $breakpoint-tablet) {
       margin: 50px;
     }
+    @media (max-width: $breakpoint-mob) {
+      margin: 0;
+    }
   }
+
   //   .toy-catalog__title
   &__title {
     margin-bottom: 30px;
@@ -71,19 +78,39 @@ export default {
       letter-spacing: 0.07em;
     }
   }
-  //   .toy-catalog__text
-  &__text {
+
+  //   .toy-catalog__description
+  &__description {
     margin-bottom: 42px;
     @media (max-width: $breakpoint-mob) {
       margin-bottom: 30px;
     }
   }
+
+  // .toy-catalog__action
+  &__action {
+    @media (max-width: $breakpoint-desktop-md) {
+      margin-bottom: 42px;
+    }
+  }
+
+  // .toy-catalog__wrapper
+  &__wrapper {
+    margin: 0 auto;
+    width: 635px;
+    height: 100%;
+    overflow: hidden;
+    @media (max-width: $breakpoint-tablet-md) {
+      width: 450px;
+    }
+    @media (max-width: $breakpoint-mob) {
+      width: 100%;
+    }
+  }
+
   // .toy-catalog__slider
   &__slider {
     border-radius: 50px;
-    @media (max-width: $breakpoint-mob) {
-      display: none;
-    }
   }
 }
 </style>

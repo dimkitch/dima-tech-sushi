@@ -12,6 +12,7 @@
           v-for="card in blogData.blogCard"
           :key="`blog-card-${card.id}`"
           :blogData="card"
+          @showInModal="onShowModal"
         />
       </div>
     </div>
@@ -19,6 +20,7 @@
 </template>
 <script>
 import BlogCard from "@/components/shared/blocks/Blog/BlogCard.vue";
+
 export default {
   components: {
     BlogCard,
@@ -26,6 +28,14 @@ export default {
   props: {
     blogData: {
       type: Object,
+    },
+  },
+  data() {
+    return { showModal: false };
+  },
+  methods: {
+    onShowModal(data) {
+      this.$emit("showBlogInModal", data);
     },
   },
 };
