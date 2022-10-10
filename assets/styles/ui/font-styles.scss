@@ -2,22 +2,80 @@
 
 // Классы заголовков
 .title {
+  // .title-sm
+  &-sm {
+    font-size: 64px;
+    line-height: 71px;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  // .title-mdxl
+  &-mdxl {
+    font-size: 48px;
+    line-height: 60px;
+    @media (max-width: $breakpoint-tablet-md) {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  }
   // .title-xl
   &-xl {
     font-size: 45px;
-    line-height: 143%;
+    line-height: 53px;
+    letter-spacing: 0.07em;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: 0.04em;
+    }
   }
-
   // .title-lg
   &-lg {
     font-size: 40px;
     line-height: 143%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 30px;
+      line-height: 35px;
+    }
   }
-
+  // .title-xxl
+  &-xxl {
+    font-size: 36px;
+    line-height: 42px;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+  // .title-msxl
+  &-msxl {
+    font-size: 30px;
+    line-height: 143%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 21px;
+      line-height: 143%;
+    }
+  }
+  // .title-xsm
+  &-xsm {
+    font-size: 25px;
+    line-height: 30px;
+  }
   // .title-md
   &-md {
     font-size: 24px;
-    line-height: 98%;
+    line-height: 150%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+  // .title-nr
+  &-nr {
+    font-size: 20px;
+    line-height: 120%;
   }
 }
 
@@ -27,6 +85,10 @@
   &-xl {
     font-size: 17px;
     line-height: 117%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 12px;
+      line-height: 24px;
+    }
   }
   // .text-lg
   &-lg {
@@ -35,12 +97,49 @@
   } // .text-md
   &-md {
     font-size: 16px;
-    line-height: 119%;
+    line-height: 150%;
   }
   // .text-nr
   &-nr {
     font-size: 14px;
     line-height: 121%;
+  }
+  // .text-sm
+  &-sm {
+    font-size: 15px;
+    line-height: 146%;
+  }
+
+  // .text-xsm
+  &-xsm {
+    font-size: 20px;
+    line-height: 120%;
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+
+  // .text-xxl
+  &-xxl {
+    font-size: 120px;
+    line-height: 142px;
+  }
+
+  // .text-xmd
+  &-xmd {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  // .text-xnr
+  &-xnr {
+    font-size: 90px;
+    line-height: 106px;
+  }
+  // .text-xnrt
+  &-xnrt {
+    font-size: 13px;
   }
 }
 
@@ -54,6 +153,10 @@
   &-primary {
     color: $color-primary;
   }
+  // .color-dark-simple
+  &-dark-simple {
+    color: $color-dark-simple;
+  }
   // .color-secondary-basalt
   &-secondary-basalt {
     color: $color-secondary-basalt;
@@ -61,6 +164,42 @@
   // .color-light
   &-light {
     color: $color-light;
+  }
+  // .color-light-simple
+  &-light-simple {
+    color: $color-light-simple;
+  }
+  // .color-secondary-deep-light
+  &-secondary-deep-light {
+    color: $color-secondary-deep-light;
+  }
+  // .color-accent
+  &-accent {
+    color: $color-accent;
+  }
+  // .color-success-deep
+  &-success-deep {
+    color: $color-success-deep;
+  }
+  // .color-primary-light
+  &-primary-light {
+    color: $color-primary-light;
+  }
+  // .color-secondary-deep-dark
+  &-secondary-deep-dark {
+    color: $color-secondary-deep-dark;
+  }
+  // .color-dark-basalt
+  &-dark-basalt {
+    color: $color-dark-basalt;
+  }
+  // .color-light-dark
+  &-light-dark {
+    color: $color-light-dark;
+  }
+  // .color-dark-deep
+  &-dark-deep {
+    color: $color-dark-deep;
   }
 }
 // Хелперы
@@ -72,4 +211,16 @@
 }
 .fw-medium {
   font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.tf-up {
+  text-transform: uppercase;
+}
+.lh {
+  line-height: 157%;
+}
+.lsp {
+  letter-spacing: 0.07em;
 }
