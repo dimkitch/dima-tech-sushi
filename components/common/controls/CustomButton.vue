@@ -1,11 +1,21 @@
 <template>
-  <button
-    class="custom-btn"
-    :class="`custom-btn--${size} custom-btn--${theme}`"
-    @click="$emit('click')"
+  <component
+    :is="getTag"
+    class="custom-button"
+    :class="[
+      { 'custom-button--is-active': isActive },
+      `custom-button--${size}`,
+      `custom-button--${theme}`
+    ]"
+    :href="href"
+    :type="type"
+    v-bind="$attrs"
+    v-on="$listeners"
   >
-    <slot></slot>
-  </button>
+    <span class="custom-button__content">
+      <slot></slot>
+    </span>
+  </component>
 </template>
 
 <script>
@@ -13,122 +23,155 @@ export default {
   props: {
     size: {
       type: String,
+      default: 'xl'
     },
-    rounded: {
-      type: String,
-    },
+
     theme: {
       type: String,
-      default: "primary",
+      default: 'deep'
     },
+
+    href: {
+      type: String,
+      default: ''
+    },
+
+    tag: {
+      type: String,
+      default: 'button'
+    },
+
+    isActive: {
+      type: Boolean,
+      default: false
+    },
+
+    type: {
+      type: String,
+      default: ''
+    }
   },
-};
+
+  computed: {
+    getTag() {
+      return this.href ? 'a' : this.tag
+    }
+  }
+}
 </script>
 
 <style lang="scss">
-// xl,lg,md,nr,sm,xsm
-.custom-btn {
-  font-size: 15px;
-  line-height: 100%;
+$b: '.custom-button';
+
+#{$b} {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-radius: 20px;
   cursor: pointer;
-  transition: $transition-mod;
-  @media (max-width: $breakpoint-mob) {
-    width: 100%;
-  }
-  // .custom-btn--xl
-  &--xl {
-    padding: 9px 48px;
-  }
-  // .custom-btn--lg
+  transition: $transition-default;
+  white-space: nowrap;
+
+  // .custom-button--lg
   &--lg {
-    padding: 21px 28px;
-    letter-spacing: 0.1em;
-  }
-  // .custom-btn--md
-  &--md {
-    padding: 28px 27px;
-    letter-spacing: 0.1em;
-    border: 2px solid $color-accent;
-  }
-  // .custom-btn--nr
-  &--nr {
-    padding: 13px 23px;
-    border-radius: 25px;
-    width: 100%;
-    @media (max-width: $breakpoint-tablet-md) {
-      padding: 10px 14px;
-    }
-  }
-  // .custom-btn--sm
-  &--sm {
-    padding: 10px 41px;
-    border-radius: 10px;
-  }
-  // .custom-btn--xsm
-  &--xsm {
-    padding: 28px 58px;
-    font-weight: 700;
-    line-height: 18px;
-    border: 2px solid $color-accent;
-    @media (max-width: $breakpoint-tablet-md) {
-      padding: 14px 28px;
-    }
-    &:hover {
-      background-color: $color-light;
-      color: $color-accent;
+    padding: 16px 32px;
+    border-radius: 100px;
+
+    @include mobile {
+      padding: 12px 18px;
     }
   }
 
-  // .custom-btn--round
-  &--round {
-    width: 66px;
-    height: 66px;
+  // .custom-button--md
+  &--md {
+    padding: 12px 30px;
+    border-radius: 30px;
+  }
+
+  // .custom-button--md-2
+  &--md-2 {
+    padding: 8px 21px;
+    border-radius: 8px;
+  }
+
+  // .custom-button--md-3
+  &--md-3 {
+    padding: 19px 22px;
+    border-radius: 8px;
+  }
+
+    // .custom-button--md-4
+  &--md-4 {
+    padding: 14px 32px;
+    border-radius: 4px;
+  }
+
+  // .custom-button--ll
+  &--ll {
+    padding: 8px;
     border-radius: 50%;
   }
 
-  //Стили кнопок--------------------------------------------
+  // .custom-button--light
+  &--light {
+    color: $color-dark-deep-2;
+    background-color: $color-light;
+    border: 2px solid transparent;
 
-  // .custom-btn--primary
-  &--primary {
-    background-color: $color-primary;
-    color: $color-light;
-    font-weight: 500;
-  }
-  // .custom-btn--accent
-  &--accent {
-    color: $color-light;
-    background-color: $color-accent;
-    text-transform: uppercase;
-    font-weight: 700;
-    // .custom-btn--accent:hover
-    &:hover {
-      color: $color-accent;
-      background-color: $color-light;
-      font-weight: 700;
+    @include hover {
+      background-color: $color-dark-deep-2;
+      color: $color-light;
     }
   }
-  // .custom-btn--light
-  &--light {
+
+  // .custom-button--light-shadow
+  &--light-shadow {
+    color: $color-dark;
     background-color: $color-light;
-    color: $color-primary;
+    border: 1px solid $color-secondary;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+
+    @include hover {
+      background-color: $color-dark-deep-2;
+      color: $color-light;
+    }
   }
-  // .custom-btn--danger
-  &--danger {
-    background-color: $color-danger;
+
+    // .custom-button--deep
+  &--deep {
     color: $color-light;
-    font-weight: 400;
-  } // .custom-btn--simple-primary
-  &--simple-primary {
-    background-color: $color-simple-primary;
+    background-color: $color-dark-deep;
+    border: 2px solid transparent;
+
+    @include hover {
+      background-color:  $color-light;
+      color: $color-dark-deep;
+      border-color: $color-dark-deep;
+    }
+  }
+
+  // .custom-button--warning-without-outline
+  &--warning-without-outline {
+    color: $color-warning;
+    background-color: $color-light;
+
+    // .custom-button--warning-without-outline.custom-button--is-active
+    &#{$b}--is-active {
+      color: $color-light;
+      background-color: $color-dark-deep;
+    }
+  }
+ 
+  // .custom-button--primary-deep
+  &--primary-deep {
     color: $color-light;
-    font-weight: 400;
-    &:hover {
-      background-color: $color-danger;
+    background-color: $color-primary-deep;
+    border: 1px solid transparent;
+
+    @include hover {
+      background-color:  $color-light;
+      color: $color-primary-deep;
+      border-color: $color-primary-deep;
     }
   }
 }

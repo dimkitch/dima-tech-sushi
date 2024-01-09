@@ -6,14 +6,11 @@
 
 <style lang="scss">
 .layout-wrapper {
-  padding-top: 144px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: calc(var(--header-height) + 30px);
   min-height: 100vh;
   overflow: hidden;
-  @media (max-width: $breakpoint-mob) {
-    padding-top: 77px;
-  }
 }
 </style>

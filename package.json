@@ -1,9 +1,9 @@
 {
-  "name": "abc-market",
+  "name": "dima-tech-sushi",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --mode development",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -11,14 +11,17 @@
     "mocks": "mocks-server"
   },
   "dependencies": {
+    "axios": "^0.22.0",
     "core-js": "^3.19.3",
+    "lodash-es": "^4.17.21",
     "nuxt": "^2.15.8",
+    "swiper": "^6.8.4",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
+    "vuelidate": "^0.7.7",
     "vuex": "^3.6.2",
-    "webpack": "^4.46.0",
-    "swiper": "^6.8.4"
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@mocks-server/main": "^2.6.3",

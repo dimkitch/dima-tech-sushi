@@ -1,0 +1,29 @@
+body {
+  font-family: $font-family-main;
+  font-size: $font-size-main;
+  font-weight: $font-weight-main;
+  line-height: $line-height-main;
+  color: $color-dark-light;
+  width: 100%;
+
+  &.scroll-lock {
+    overflow: hidden!important
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: calc($container-size + ($container-gap * 2));
+  margin: 0 auto;
+  padding: 0 $container-gap;
+
+  @include low-desktop {
+    max-width: calc($container-size + ($container-gap-md * 2));
+    padding: 0 $container-gap-md;
+  }
+
+  @include mobile {
+    max-width: 100%;
+    padding: 0 $container-gap-sm;
+  }
+}

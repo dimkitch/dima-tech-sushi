@@ -1,40 +1,5 @@
-@import "global/reset.scss";
-@import "global/variables.scss";
-@import "ui/fonts.scss";
-@import "ui/font-styles.scss";
-// @import "swiper/swiper-bundle.css";
-
-body {
-  // TODO: дефолтные стили
-  font-family: $font-main;
-  font-size: $font-size-main-text;
-  color: $color-dark-simple;
-  font-weight: $font-weight-main-text;
-}
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-}
-.container {
-  width: 1380px;
-
-  padding-right: $container-gap-width-desktop;
-  padding-left: $container-gap-width-desktop;
-
-  margin: 0 auto;
-  @media (max-width: $breakpoint-desktop-md) {
-    width: $container-width-desktop-md;
-  }
-  @media (max-width: $breakpoint-tablet) {
-    width: $container-width-tablet;
-  }
-  @media (max-width: $breakpoint-tablet-md) {
-    width: $container-width-tablet-md;
-  }
-  @media (max-width: $breakpoint-mob) {
-    width: $container-width-mob;
-  }
-}
+@import '@/assets/styles/utils/reset';
+@import '@/assets/styles/global/includes';
+@import '@/assets/styles/global/global';
+@import '@/assets/styles/ui/fonts';
+@import '@/assets/styles/ui/font-styles';

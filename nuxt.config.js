@@ -15,24 +15,15 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["@/assets/styles/main.scss", "swiper/swiper-bundle.css"],
+  css: ["@/assets/styles/main.scss"],
 
   styleResources: {
-    scss: ["@/assets/styles/global/variables.scss"],
+    scss: ["@/assets/styles/global/includes.scss"],
   },
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/style-resources"],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  buildModules: ["@nuxtjs/style-resources"]
 };

@@ -1,226 +1,140 @@
-// xl,lg,md,nr,sm,xsm
-
-// Классы заголовков
-.title {
-  // .title-sm
-  &-sm {
-    font-size: 64px;
-    line-height: 71px;
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 30px;
-      line-height: 35px;
-    }
-  }
-  // .title-mdxl
-  &-mdxl {
-    font-size: 48px;
-    line-height: 60px;
-    @media (max-width: $breakpoint-tablet-md) {
-      font-size: 28px;
-      line-height: 30px;
-    }
-  }
-  // .title-xl
-  &-xl {
-    font-size: 45px;
-    line-height: 53px;
-    letter-spacing: 0.07em;
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 30px;
-      line-height: 35px;
-      letter-spacing: 0.04em;
-    }
-  }
-  // .title-lg
-  &-lg {
-    font-size: 40px;
-    line-height: 143%;
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 30px;
-      line-height: 35px;
-    }
-  }
-  // .title-xxl
-  &-xxl {
-    font-size: 36px;
-    line-height: 42px;
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 24px;
-      line-height: 28px;
-    }
-  }
-  // .title-msxl
-  &-msxl {
-    font-size: 30px;
-    line-height: 143%;
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 21px;
-      line-height: 143%;
-    }
-  }
-  // .title-xsm
-  &-xsm {
-    font-size: 25px;
-    line-height: 30px;
-  }
-  // .title-md
-  &-md {
-    font-size: 24px;
-    line-height: 150%;
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 22px;
-      line-height: 28px;
-    }
-  }
-  // .title-nr
-  &-nr {
-    font-size: 20px;
-    line-height: 120%;
-  }
-}
-
-// Классы текста
-.text {
-  // .text-xl
-  &-xl {
-    font-size: 17px;
-    line-height: 117%;
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 12px;
-      line-height: 24px;
-    }
-  }
-  // .text-lg
-  &-lg {
-    font-size: 12px;
-    line-height: 117%;
-  } // .text-md
-  &-md {
-    font-size: 16px;
-    line-height: 150%;
-  }
-  // .text-nr
-  &-nr {
-    font-size: 14px;
-    line-height: 121%;
-  }
-  // .text-sm
-  &-sm {
-    font-size: 15px;
-    line-height: 146%;
-  }
-
-  // .text-xsm
-  &-xsm {
-    font-size: 20px;
-    line-height: 120%;
-    @media (max-width: $breakpoint-tablet) {
-      font-size: 18px;
-      line-height: 21px;
-    }
-  }
-
-  // .text-xxl
-  &-xxl {
-    font-size: 120px;
-    line-height: 142px;
-  }
-
-  // .text-xmd
-  &-xmd {
-    font-size: 18px;
-    line-height: 21px;
-  }
-
-  // .text-xnr
-  &-xnr {
-    font-size: 90px;
-    line-height: 106px;
-  }
-  // .text-xnrt
-  &-xnrt {
-    font-size: 13px;
-  }
-}
-
-// Классы для цвета текста
 .color {
-  // .color-secondary-basalt-deep
-  &-secondary-basalt-deep {
-    color: $color-secondary-basalt-deep;
+  // .color-dark
+  &-dark {
+    color: $color-dark;
   }
-  // .color-primary
-  &-primary {
-    color: $color-primary;
-  }
-  // .color-dark-simple
-  &-dark-simple {
-    color: $color-dark-simple;
-  }
-  // .color-secondary-basalt
-  &-secondary-basalt {
-    color: $color-secondary-basalt;
-  }
-  // .color-light
-  &-light {
-    color: $color-light;
-  }
-  // .color-light-simple
-  &-light-simple {
-    color: $color-light-simple;
-  }
-  // .color-secondary-deep-light
-  &-secondary-deep-light {
-    color: $color-secondary-deep-light;
-  }
-  // .color-accent
-  &-accent {
-    color: $color-accent;
-  }
-  // .color-success-deep
-  &-success-deep {
-    color: $color-success-deep;
-  }
-  // .color-primary-light
-  &-primary-light {
-    color: $color-primary-light;
-  }
-  // .color-secondary-deep-dark
-  &-secondary-deep-dark {
-    color: $color-secondary-deep-dark;
-  }
-  // .color-dark-basalt
-  &-dark-basalt {
-    color: $color-dark-basalt;
-  }
-  // .color-light-dark
-  &-light-dark {
-    color: $color-light-dark;
-  }
+
   // .color-dark-deep
   &-dark-deep {
     color: $color-dark-deep;
   }
+
+  // .color-dark-deep-3
+  &-dark-deep-3 {
+    color: $color-dark-deep-3;
+  }
+  
+  // .color-light 
+  &-light {
+    color: $color-light;
+  }
+  
+  // .color-secondary-light
+  &-secondary-light {
+    color: $color-secondary-light;
+  }
+
+  // .color-secondary-deep
+  &-secondary-deep {
+    color: $color-secondary-deep;
+  }
+
+  // .color-secondary-dark
+  &-secondary-dark {
+    color: $color-secondary-dark;
+  }
 }
-// Хелперы
-.fw-heavy {
-  font-weight: 900;
+
+.title {
+  // .title-xl
+  &-xl {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @include low-desktop-lg {
+      font-size: 48px;
+    }
+  }
+
+  // .title-md
+  &-md {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  // .title-ll
+  &-ll {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
-.fw-bold {
-  font-weight: 700;
+
+.text {
+  // .text-xxl
+  &-xxl {
+    font-size: 28px;
+    line-height: 114%;
+    font-weight: 400;
+
+    @include low-desktop-lg {
+      font-size: 21px;
+      line-height: normal;
+    }
+
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+
+  // .text-xxl-2
+  &-xxl-2 {
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 400;
+  }
+  
+  // .text-xl
+  &-xl {
+    font-size: 19px;
+    line-height: 131%;
+    letter-spacing: 1.9px;
+  }
+
+  // .text-lg
+  &-lg {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    letter-spacing: 0.18px;
+  }
+
+  // .text-md
+  &-md {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.8px;
+  }
+
+  // .text-ll
+  &-ll {
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+  }
+
+  // .text-sm
+  &-sm {
+    font-family: Arial;
+    font-size: 13px;
+  }
 }
-.fw-medium {
-  font-weight: 500;
+
+@for $i from 1 to 10 {
+  $fw: calc($i * 100);
+  .fw-#{$fw} {
+    font-weight: #{$fw};
+  }
 }
-.fw-600 {
-  font-weight: 600;
-}
-.tf-up {
+
+.tt-uppercase {
   text-transform: uppercase;
-}
-.lh {
-  line-height: 157%;
-}
-.lsp {
-  letter-spacing: 0.07em;
 }
